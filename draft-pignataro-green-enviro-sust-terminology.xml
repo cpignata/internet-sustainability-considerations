@@ -149,7 +149,7 @@ The CUE is the ratio of the total CO2 emissions caused by total data center ener
 See also "PUE".
 </t>
 
-
+<t hangText="Demand Response:"><br /> is a strategy that dynamically adjusts electricity consumption in response to grid conditions, helping to reduce reliance on high-emission energy sources. Demand Response mechanisms optimize energy use by shifting or reducing power demand during peak periods, improving grid stability, enhancing energy efficiency, and supporting sustainability goals.</t>
 <t hangText="Doughnut economics:"><br /> is a visual framework for sustainable development. It attempts to find a safe operational space within planetary boundaries and complementary (yet seemingly opposing) social boundaries, thereby meeting the needs of human societies without pushing earth environmental boundaries to their tipping points <xref target="Doughnut"/>. The significance of this model for interworking is that it demonstrates how to conceptualize and position boundaries in our designs that are seemingly opposing, to create a balanced approach, for example between energy efficiency and performance or resiliency and materials efficiency. It is not one or the other, but to find a space where both can be achieved without crossing boundaries in respective domains.</t>
 
 
