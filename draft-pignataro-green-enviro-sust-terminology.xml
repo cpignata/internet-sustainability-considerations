@@ -166,6 +166,7 @@ See also "PUE".
 
 
 <t hangText="Embodied emissions:"><br /> also referred to as embodied carbon and embedded carbon, refers to the amount of GHG emissions associated with upstream phases - raw material extraction, production, transportation (of materials and of product), and manufacturing-stages of a product's lifecycle. Some initiatives also consider disposal.</t>
+<t hangText="Embodied energy:"><br /> refers to the total amount of energy consumed across all upstream stages of a product's lifecycle, including raw material extraction, processing, manufacturing, and transportation of materials and components. Embodied energy does not account for the operational energy consumed during the use-phase of the product. In the context of ICT, this includes the energy used in producing semiconductors, assembling network equipment, and transporting devices to deployment locations. Understanding embodied energy is essential for assessing the full lifecycle sustainability of ICT systems and guiding circular design strategies.</t>
 
 
 <t hangText="Energy, power, and their measurement:"><br /> In physics, energy is defined as the capacity or ability to do work. For a system to provide an output, the quantitative property of energy is transferred to it. The energy measurement unit in the International System of Units (SI) is the joule (J). Power is energy used per second, measured in the International System of Units in watts (W), equivalent to the rate of one joule per second (J/s). In other words, energy is the integration of power over time. As such, 
