@@ -101,7 +101,7 @@
 
     <abstract>
       <t>
-        Embedding sustainability considerations at the design of new protocols and extensions is more effective than attempting to do so after-the-fact. Consequently, this document also gives network, protocol, and application designers and implementors sustainability-related advice and guideance.
+        Embedding sustainability considerations at the design of new protocols and extensions is more effective than attempting to do so after-the-fact. Consequently, this document also gives network, protocol, and application designers and implementers sustainability-related advice and guidance.
 </t><t>
         This document recommends to authors and reviewers the inclusion of a Sustainability Considerations section in IETF Internet-Drafts and RFCs.
       </t>
@@ -120,7 +120,7 @@
       <t>
         This document leverages the terminology and concepts defined in 
         <xref target="I-D.pignataro-green-enviro-sust-terminology" />,
-        and readers are expected to be familiar with those. Specifically, Section 3.1.1 of <xref target="I-D.pignataro-green-enviro-sust-terminology" /> describes contepts of particular relevance to this draft.
+        and readers are expected to be familiar with those. Specifically, Section 3.1.1 of <xref target="I-D.pignataro-green-enviro-sust-terminology" /> describes concepts of particular relevance to this draft.
       </t>
     </section>
 
@@ -131,7 +131,7 @@
 
 
     <section title="Implications to the IETF">
-            <t>This section describes the implications of sustainability to the IETF. Specifically, the high-level relevant areas on which the IETF can act upon, and a rough prioritization.
+            <t>This section describes the implications of sustainability to the IETF. Specifically, the high-level relevant areas on which the IETF can act, and a rough prioritization.
               These potentially include use cases, protocols, metrics, etc.</t>
             <t>A key area to understand the relevance and implication is regarding IETF Protocols.</t>
     </section>
@@ -155,7 +155,7 @@
                 Consider attributional versus consequential analysis methods, explaining environmental impact benefits.
               </t>
               <t>
-                Clearly state the units used for each magnitude in every analysis (e.g., gCO2e/KWh.)
+                Clearly state the units used for each magnitude in every analysis (e.g., gCO2e/kWh.)
               </t>
             </list>
           </t>
@@ -169,7 +169,7 @@
                 Metrics:<br />Instrument equipment, network elements, and networks with a set of relevant and meaningful metrics that provide visibility into sustainability and environmental-impact attributes (e.g., power and energy consumption.)  This is the foundation for any mechanisms to improve and optimize sustainability.
               </t>
               <t>
-                Managed Elements:<br />Facilitate, extend, and enrich the manageability of network elements and sub-elements which have environmental impact, such as Power Supplies. For example, provide visibility into sourced power, e.g. energy mix, and allow to account for the "dirtiness" of power being consumed to obtain a truer picture of sustainability than can be gained by visibility into power consumption alone.
+                Managed Elements:<br />Facilitate, extend, and enrich the manageability of network elements and sub-elements which have an environmental impact, such as Power Supplies. For example, provide visibility into sourced power, e.g. energy mix, and allow to account for the "dirtiness" of power being consumed to obtain a truer picture of sustainability than can be gained by visibility into power consumption alone.
               </t>
             </list>
           </t>
@@ -189,10 +189,10 @@
                 Chattiness of protocols.  For a given protocol, what are the message exchange patterns? does the protocol rely on periodic updates or heartbeat messages?  Could such message patterns result in preventing links or nodes from going to sleep (absent other communications), and in such a case, would an alternative pattern be feasible?
               </t>
               <t>
-                Exploiting burstiness versus smoothening of traffic.  Is it feasible to design the protocol in such a way that traffic is sent with a smoother traffic pattern with lower traffic volumes that are sent continuously, as opposed to a way that traffic is bulked up and then sent in one fell swoop?
+                Exploiting burstiness versus smoothening of traffic.  Is it feasible to design the protocol to transmit with a smoother traffic pattern with lower traffic volumes that are sent continuously, as opposed to a way that traffic is bulked up and then sent in one fell swoop?
               </t>
               <t>
-                Rapid discovery and convergence.  Does the protocol involve the exchange of state and information about other systems?  In that case, how can the protocol be designed in such that any such information can be discovered quickly and protocol synchronization reconverged efficiently?  Does the protocol design support stateful schemes that might accelerate this?  In cases where there is a possibility of nodes going to sleep, the associated overhead of going offline and coming back online should be minimized.  By shortening the time interval needed to go offline and come back online, it might be possible to have enter sleep mode in situations where it would otherwise not be feasible. 
+                Rapid discovery and convergence.  Does the protocol involve the exchange of state and information about other systems?  In that case, how can the protocol be designed in such that any such information can be discovered quickly and protocol synchronization reconverged efficiently?  Does the protocol design support stateful schemes that might accelerate this?  In cases where there is a possibility of nodes going to sleep, the associated overhead of going offline and coming back online should be minimized. By shortening the time interval needed to go offline and come back online, it might be possible to enter sleep mode in situations where it would otherwise not be feasible. 
               </t>
               <t>
                 Encoding schemes.  How much computational effort goes into encoding and decoding?  Assess the tradeoff between encoding efficiency and computational effort, which directs into carbon for cycles to perform coding operations.
@@ -240,11 +240,11 @@
             <t>The pre-eminent message in this document is to elevate the need and sense of urgency of including sustainability considerations in our protocol and system design, and to provide editors with a sustainability lexicon, definitions, and priorities to carry out that task. As an added benefit, by including sustainability considerations, it will be possible to optimize for not only performance parameters but also sustainability ones, through respective trade-offs in our protocols and systems.</t>
             <t>We also envision that on top of minimizing the environmental impact of our technologies and helping consumers identify and reduce the environmental impact of their use, we can also make a positive impact on other systems. E.g., use our technologies to choose greener and more efficient sources of power, control HVAC systems efficiently, etc.</t>
                 <section title="Call to Action">
-            <t>The intention of this document is multifaceted: establish definitions and a lexicon for sustainability, characterize environmental implications of internetworking technologies, and provide specific guidelines for designers and implementors. 
+            <t>The intention of this document is multifaceted: establish definitions and a lexicon for sustainability, characterize environmental implications of internetworking technologies, and provide specific guidelines for designers and implementers. 
     </t><t>
               Making these objectives actionable involves:</t>
                           <list style="numbers">
-                <t>Familiarize yourself with the environmental sustainabilithy terms,</t>
+                <t>Familiarize yourself with the environmental sustainability terms,</t>
                 <t>understand the environmental sustainability implications to protocol and architecture, and</t>
                 <t>consider, qualify, quantify, and explain the specific guidelines in <xref target="advice" /> as you develop protocols, extensions, and architectures.</t></list>
 
