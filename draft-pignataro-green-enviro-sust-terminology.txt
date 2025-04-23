@@ -5,14 +5,16 @@
 Network Working Group                                  C. Pignataro, Ed.
 Internet-Draft                                      Blue Fern Consulting
 Intended status: Informational                                 A. Rezaki
-Expires: 30 June 2025                                              Nokia
+Expires: 25 October 2025                                           Nokia
                                                             H. ElBakoury
                                                   Independent Consultant
-                                                        27 December 2024
+                                                               S. Prabhu
+                                                                   Nokia
+                                                           23 April 2025
 
 
          Environmental Sustainability Terminology and Concepts
-            draft-pignataro-green-enviro-sust-terminology-01
+            draft-pignataro-green-enviro-sust-terminology-02
 
 Abstract
 
@@ -36,33 +38,26 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 30 June 2025.
+   This Internet-Draft will expire on 25 October 2025.
 
 Copyright Notice
 
-   Copyright (c) 2024 IETF Trust and the persons identified as the
+   Copyright (c) 2025 IETF Trust and the persons identified as the
    document authors.  All rights reserved.
-
-
-
-
-
-
-
-
-
-
-
-Pignataro, et al.         Expires 30 June 2025                  [Page 1]
-
-Internet-Draft     Environmental Sustainability Terms      December 2024
-
 
    This document is subject to BCP 78 and the IETF Trust's Legal
    Provisions Relating to IETF Documents (https://trustee.ietf.org/
    license-info) in effect on the date of publication of this document.
    Please review these documents carefully, as they describe your rights
    and restrictions with respect to this document.  Code Components
+
+
+
+Pignataro, et al.        Expires 25 October 2025                [Page 1]
+
+Internet-Draft     Environmental Sustainability Terms         April 2025
+
+
    extracted from this document must include Revised BSD License text as
    described in Section 4.e of the Trust Legal Provisions and are
    provided without warranty as described in the Revised BSD License.
@@ -71,16 +66,16 @@ Table of Contents
 
    1.  Introduction  . . . . . . . . . . . . . . . . . . . . . . . .   2
    2.  Definition of Terms . . . . . . . . . . . . . . . . . . . . .   2
-   3.  Environmental Sustainability Concepts . . . . . . . . . . . .  12
-     3.1.  'Sustainable X' versus 'X for Sustainability' . . . . . .  12
-       3.1.1.  Sustainable Internetworking . . . . . . . . . . . . .  13
-       3.1.2.  Internetworking for Sustainability  . . . . . . . . .  14
-     3.2.  Key Values and Key Value Indicators . . . . . . . . . . .  16
-       3.2.1.  Key Value Enablers  . . . . . . . . . . . . . . . . .  17
-   4.  Security Considerations . . . . . . . . . . . . . . . . . . .  17
-   5.  Acknowledgements  . . . . . . . . . . . . . . . . . . . . . .  17
-   6.  Informative References  . . . . . . . . . . . . . . . . . . .  17
-   Authors' Addresses  . . . . . . . . . . . . . . . . . . . . . . .  20
+   3.  Environmental Sustainability Concepts . . . . . . . . . . . .  13
+     3.1.  'Sustainable X' versus 'X for Sustainability' . . . . . .  13
+       3.1.1.  Sustainable Internetworking . . . . . . . . . . . . .  14
+       3.1.2.  Internetworking for Sustainability  . . . . . . . . .  15
+     3.2.  Key Values and Key Value Indicators . . . . . . . . . . .  17
+       3.2.1.  Key Value Enablers  . . . . . . . . . . . . . . . . .  18
+   4.  Security Considerations . . . . . . . . . . . . . . . . . . .  18
+   5.  Acknowledgements  . . . . . . . . . . . . . . . . . . . . . .  18
+   6.  Informative References  . . . . . . . . . . . . . . . . . . .  18
+   Authors' Addresses  . . . . . . . . . . . . . . . . . . . . . . .  21
 
 1.  Introduction
 
@@ -106,20 +101,24 @@ Table of Contents
    report [UNGA42] defines it as development that "meets the needs of
    the present without compromising the ability of future generations to
    meet their own needs".  This in turn involves balancing economic,
-
-
-
-Pignataro, et al.         Expires 30 June 2025                  [Page 2]
-
-Internet-Draft     Environmental Sustainability Terms      December 2024
-
-
    social, and environmental factors.
+
+
+
+
+
+
+
+Pignataro, et al.        Expires 25 October 2025                [Page 2]
+
+Internet-Draft     Environmental Sustainability Terms         April 2025
+
 
    This section defines sustainability-specific terms as they are used
    in the document, and as they pertain to environmental impacts.  The
-   goal is to provide a common sustainability considerations lexicon for
-   network equipment vendors, operators, designers, and architects.
+   goal is to provide a common lexicon for sustainability considerations
+   among network equipment vendors, operators, designers, and
+   architects.
 
    Notwithstanding the most comprehensive set of definitions of relevant
    terms readers can find at [IPCC], this section contributes the
@@ -162,15 +161,15 @@ Internet-Draft     Environmental Sustainability Terms      December 2024
       change impact of non-CO2 gases as compared to CO2, which is
       selected as a benchmark.
 
-
-
-
-Pignataro, et al.         Expires 30 June 2025                  [Page 3]
-
-Internet-Draft     Environmental Sustainability Terms      December 2024
-
-
    Carbon awareness:
+
+
+
+Pignataro, et al.        Expires 25 October 2025                [Page 3]
+
+Internet-Draft     Environmental Sustainability Terms         April 2025
+
+
       is being mindful of the carbon intensity of the electricity being
       used and prioritizing the use of low carbon intensity electricity
       in network set-up and operations.  As carbon intensity is location
@@ -182,25 +181,25 @@ Internet-Draft     Environmental Sustainability Terms      December 2024
    Carbon intensity (CI):
       also referred to as emission intensity and emission factor, is a
       measure of the carbon-equivalent emission of consumed electricity,
-      i.e., grams of carbon-equivalent per kilowatt hour (gCO2e/KWh).
+      i.e., grams of carbon-equivalent per kilowatt-hour (gCO2e/kWh).
       When the supplied energy mix is purely from renewable sources such
       as sun and wind, carbon intensity is practically 0, when coal and
       gas-powered electricity generation gets in the mix, carbon
-      intensity increases.  Carbon intensity could change
-      instantaneously or predictably based on the time and location of
-      electricity use.  Prioritizing electricity use when carbon
-      intensity is low is a target.
+      intensity increases.  Carbon intensity can vary instantaneously or
+      predictably based on the time and location of electricity usage.
+      Prioritizing electricity usage when carbon intensity is low is a
+      target.
 
    Carbon offset and credit:
       is a reduction of GHGs from the atmosphere as compensation for
-      GHGs produced elsewhere and the credit generated and used
-      respectively.  This reduction in GHG emissions can be an increase
+      GHGs produced elsewhere, with credits being generated and used
+      accordingly.  This reduction in GHG emissions can be an increase
       in carbon storage through land restauration, or an actual removal
       of GHG.  For example, certified forestation projects that absorb
       carbon dioxide produce carbon credits that an airline can use to
       offset its GHG emissions by using (purchasing) these credits.
       There are accredited carbon trading mechanisms to facilitate this
-      exchange.  This is generally regarded as a non-scalable solution,
+      exchange.  This is generally regarded as a non-scalable solution
       and activities such as the reduction of GHG emissions and the
       shifting of electrical energy production to renewables are a
       primary focus.
@@ -209,24 +208,24 @@ Internet-Draft     Environmental Sustainability Terms      December 2024
       is a model or system where material resources and products are
       kept in use for as long as possible through long life cycles,
       reuse, repair, refurbishing and recycling, thereby reducing
-      materials use, waste, and pollution as well as biodiversity and
+      material use, waste, and pollution as well as biodiversity and
       geodiversity loss.  Keeping internetworking equipment in longer
-      use through modularity, serviceability, upgradeability,
+      use through modularity, serviceability, upgradeability, and
       maintainability are strategies to improve circularity.
 
    Climate change (climate emergency, global warming):
       can be summarized as the increase in the global average
       temperatures and its destructive impact on life on Earth.  The
       climate emergency refers to the ongoing and projected impacts of
-
-
-
-Pignataro, et al.         Expires 30 June 2025                  [Page 4]
-
-Internet-Draft     Environmental Sustainability Terms      December 2024
-
-
       rising global temperatures and the narrow time window we have to
+
+
+
+Pignataro, et al.        Expires 25 October 2025                [Page 4]
+
+Internet-Draft     Environmental Sustainability Terms         April 2025
+
+
       limit temperature increases to a threshold determined by the Paris
       Climate Agreement (2015) to avoid the permanent destabilization of
       Earth life-support systems.
@@ -260,6 +259,14 @@ Internet-Draft     Environmental Sustainability Terms      December 2024
       equipment.  To calculate CUE when using electricity from the grid,
       carbon emissions can be based on published data.  See also "PUE".
 
+   Demand Response:
+      is a strategy that dynamically adjusts electricity consumption in
+      response to grid conditions, helping to reduce reliance on high-
+      emission energy sources.  Demand Response mechanisms optimize
+      energy usage by shifting or reducing power demand during peak
+      periods, improving grid stability, enhancing energy efficiency,
+      and supporting sustainability goals.
+
    Doughnut economics:
       is a visual framework for sustainable development.  It attempts to
       find a safe operational space within planetary boundaries and
@@ -267,6 +274,14 @@ Internet-Draft     Environmental Sustainability Terms      December 2024
       meeting the needs of human societies without pushing earth
       environmental boundaries to their tipping points [Doughnut].  The
       significance of this model for interworking is that it
+
+
+
+Pignataro, et al.        Expires 25 October 2025                [Page 5]
+
+Internet-Draft     Environmental Sustainability Terms         April 2025
+
+
       demonstrates how to conceptualize and position boundaries in our
       designs that are seemingly opposing, to create a balanced
       approach, for example between energy efficiency and performance or
@@ -274,20 +289,25 @@ Internet-Draft     Environmental Sustainability Terms      December 2024
       but to find a space where both can be achieved without crossing
       boundaries in respective domains.
 
-
-
-
-Pignataro, et al.         Expires 30 June 2025                  [Page 5]
-
-Internet-Draft     Environmental Sustainability Terms      December 2024
-
-
    Embodied emissions:
       also referred to as embodied carbon and embedded carbon, refers to
       the amount of GHG emissions associated with upstream phases - raw
       material extraction, production, transportation (of materials and
       of product), and manufacturing-stages of a product's lifecycle.
       Some initiatives also consider disposal.
+
+   Embodied energy:
+      refers to the total amount of energy consumed across all upstream
+      stages of a product's lifecycle, including raw material
+      extraction, processing, manufacturing, and transportation of
+      materials and components.  Embodied energy does not account for
+      the operational energy consumed during the use-phase of the
+      product.  In the context of ICT, this includes the energy used in
+      producing semiconductors, assembling network equipment, and
+      transporting devices to deployment locations.  Understanding
+      embodied energy is essential for assessing the full lifecycle
+      sustainability of ICT systems and guiding circular design
+      strategies.
 
    Energy, power, and their measurement:
       In physics, energy is defined as the capacity or ability to do
@@ -310,6 +330,14 @@ Internet-Draft     Environmental Sustainability Terms      December 2024
       algorithms improves EE.  Developing energy efficiency metrics for
       internetworking and associated measurement methodologies and
       conditions as well as consistently collecting this data over time
+
+
+
+Pignataro, et al.        Expires 25 October 2025                [Page 6]
+
+Internet-Draft     Environmental Sustainability Terms         April 2025
+
+
       are essential to demonstrating EE improvements.  An example of a
       common outcome-oriented metric is energy consumption per data
       volume or traffic unit, in Wh/B [Telefonica]; this particular
@@ -328,16 +356,6 @@ Internet-Draft     Environmental Sustainability Terms      December 2024
       lack of access to energy efficient housing and transportation.
 
    Energy proportionality:
-
-
-
-
-
-Pignataro, et al.         Expires 30 June 2025                  [Page 6]
-
-Internet-Draft     Environmental Sustainability Terms      December 2024
-
-
       is the correlation between energy used and the associated useful
       output.  For internetworking this is generally interpreted as the
       proportionality of traffic or traffic throughput and energy used.
@@ -350,33 +368,41 @@ Internet-Draft     Environmental Sustainability Terms      December 2024
 
    Energy savings / conservation (ES):
       is the avoidance of energy use, by eliminating a task altogether,
-      when possible.  Shutting down unused ports on a networking
-      equipment is energy savings/conservation.
+      when possible.  Shutting down unused ports on networking equipment
+      is energy savings/conservation.
 
    Footprint (environmental/ecological):
       in general terms is the impact we have on the planet.  It can be
-      divided into subcategories as carbon footprint, water footprint,
-      land footprint, biodiversity footprint, etc.  Related to the
-      climate emergency, we are mostly focused on our carbon footprint,
-      however, it has been shown that sub-categories of footprint are
-      not entirely independent of each other.  For example, our carbon
-      footprint has a proven impact on the climate emergency through
-      rising global temperatures, cascading significant impact on forest
-      cover in warming areas since tree species adapted to certain
-      climates vanish, thereby reducing biodiversity in that region, in-
-      return impacting the carbon sink properties of the environment and
-      exacerbating climate change.  A holistic approach to our
-      environmental footprint would therefore provide the best
-      opportunity to create impact.
+      divided into subcategories such as carbon footprint, water
+      footprint, land footprint, biodiversity footprint, etc.  Related
+      to the climate emergency, we are mostly focused on our carbon
+      footprint, however, it has been shown that sub-categories of
+      footprint are not entirely independent of each other.  For
+      example, our carbon footprint has a proven impact on the climate
+      emergency through rising global temperatures, cascading
+      significant impact on forest cover in warming areas since tree
+      species adapted to certain climates vanish, thereby reducing
+      biodiversity in that region, in-return impacting the carbon sink
+      properties of the environment and exacerbating climate change.  A
+      holistic approach to our environmental footprint would therefore
+      provide the best opportunity to create impact.
+
+
+
+Pignataro, et al.        Expires 25 October 2025                [Page 7]
+
+Internet-Draft     Environmental Sustainability Terms         April 2025
+
 
    GHGs:
       Greenhouse gases are types of gases that trap heat from the sun in
       earth's atmosphere, thereby increasing average global temperatures
       and creating the climate emergency.  Carbon dioxide (CO2) is one
-      of the most common (and referenced) greenhouse gases.  There are
-      others such as methane (CH4 - a much more potent GHG than CO2) and
-      sulfur hexafluoride (SF6 - an artificial electrical insulator with
-      tens of thousands of times more warming effect than CO2).
+      of the most common (and referenced) greenhouse gases.  Other GHGs
+      include methane (CH4), which is significantly more potent than
+      CO2, and sulfur hexafluoride (SF6), an artificial electrical
+      insulator with a warming effect tens of thousands of times greater
+      than CO2.
 
    GHG Emissions Scopes:
       According to the Greenhouse Gas (GHG) Protocol [GHG-Proto],
@@ -384,15 +410,6 @@ Internet-Draft     Environmental Sustainability Terms      December 2024
 
       *  Direct GHG emissions are emissions from sources that are owned
          or controlled by the company.
-
-
-
-
-
-Pignataro, et al.         Expires 30 June 2025                  [Page 7]
-
-Internet-Draft     Environmental Sustainability Terms      December 2024
-
 
       *  Indirect GHG emissions are emissions that are a consequence of
          the activities of the company but occur at sources owned or
@@ -419,6 +436,20 @@ Internet-Draft     Environmental Sustainability Terms      December 2024
       *  Companies shall separately account for and report on scopes 1
          and 2 at a minimum.
 
+
+
+
+
+
+
+
+
+
+Pignataro, et al.        Expires 25 October 2025                [Page 8]
+
+Internet-Draft     Environmental Sustainability Terms         April 2025
+
+
       *  Scope 3 Emissions: Other indirect GHG emissions - Scope 3 is an
          optional reporting category that allows for the treatment of
          all other indirect emissions.  Scope 3 emissions are a
@@ -442,18 +473,21 @@ Internet-Draft     Environmental Sustainability Terms      December 2024
       materials constituting Earth, including soils, water (rivers,
       lakes, oceans), minerals, landforms and the associated processes
       that form and change them.  The materials used in the production
-
-
-
-Pignataro, et al.         Expires 30 June 2025                  [Page 8]
-
-Internet-Draft     Environmental Sustainability Terms      December 2024
-
-
       of internetworking equipment as well as their manufacturing and
       operational processes themselves, have impact (footprint) on
       geodiversity.  Materials efficiency as well as circularity
       improvements help mitigate this impact.
+
+   Green Software Engineering:
+      is a framework for designing, developing, and operating software
+      with a focus on energy efficiency, minimal resource consumption,
+      and sustainability principles.  It aims to reduce the
+      environmental impact of computing by optimizing algorithms,
+      improving hardware utilization, minimizing unnecessary
+      computations, and incorporating energy-aware development
+      practices.  Examples include efficient code execution, adaptive
+      workload scaling, and leveraging renewable-powered cloud
+      infrastructure.
 
    Handprint (environmental/ecological):
       is a concept developed in contrast to footprint, to quantify and
@@ -464,6 +498,14 @@ Internet-Draft     Environmental Sustainability Terms      December 2024
       footprint and handprint usually denoted by the terms "X for
       sustainability" (handprint) and "Sustainable X" (footprint).  What
       is important is that handprint impact does not compensate for
+
+
+
+Pignataro, et al.        Expires 25 October 2025                [Page 9]
+
+Internet-Draft     Environmental Sustainability Terms         April 2025
+
+
       footprint impact.  They are to be calculated and reported
       independently; footprint to be minimized as much as possible, and
       handprint maximized as much as possible, which are by definition
@@ -496,16 +538,6 @@ Internet-Draft     Environmental Sustainability Terms      December 2024
       the measurements (or estimates) of the quantity by the entities.
 
    LCA - Consequential Model:
-
-
-
-
-
-Pignataro, et al.         Expires 30 June 2025                  [Page 9]
-
-Internet-Draft     Environmental Sustainability Terms      December 2024
-
-
       Perform the measurement of the quantity by establishing a baseline
       scenario (e.g., before feature introduction) and a modified
       scenario (e.g., after the feature introduction).
@@ -522,10 +554,34 @@ Internet-Draft     Environmental Sustainability Terms      December 2024
       in general, is to bring down GHGs as close to zero as possible.
       It is generally recognized that it may not be possible to get GHGs
       to 0 in many contexts and the balance is said to be covered by
+
+
+
+Pignataro, et al.        Expires 25 October 2025               [Page 10]
+
+Internet-Draft     Environmental Sustainability Terms         April 2025
+
+
       carbon offset.  For example, many organizations and countries have
       net-zero targets by certain dates and typically what they mean is
       that they will reduce their GHGs by more than 90% and the
       remaining up to 10% will be offset.
+
+   Operational Emissions
+      refer to the greenhouse gas (GHG) emissions associated with the
+      active use phase of a product or system.  In the context of ICT
+      systems, operational emissions primarily stem from electricity
+      consumption required to power hardware such as servers, networking
+      equipment, cooling systems, and user devices during their
+      operation.  These emissions are influenced by the energy
+      efficiency of the systems, utilization patterns, and the carbon
+      intensity of the electricity used, which can vary based on
+      geographic location and time.  Unlike embodied emissions, which
+      are fixed at the point of manufacture and deployment, operational
+      emissions are continuous and dynamic, and can be optimized through
+      strategies such as energy-aware scheduling, carbon-aware routing,
+      and demand response.  Monitoring and reducing operational
+      emissions is a key focus area in sustainable ICT practices.
 
    PUE:
       Power usage effectiveness, is a data centre energy efficiency
@@ -557,9 +613,9 @@ Internet-Draft     Environmental Sustainability Terms      December 2024
 
 
 
-Pignataro, et al.         Expires 30 June 2025                 [Page 10]
+Pignataro, et al.        Expires 25 October 2025               [Page 11]
 
-Internet-Draft     Environmental Sustainability Terms      December 2024
+Internet-Draft     Environmental Sustainability Terms         April 2025
 
 
       return even increasing the overall resource use.  This is known as
@@ -613,9 +669,9 @@ Internet-Draft     Environmental Sustainability Terms      December 2024
 
 
 
-Pignataro, et al.         Expires 30 June 2025                 [Page 11]
+Pignataro, et al.        Expires 25 October 2025               [Page 12]
 
-Internet-Draft     Environmental Sustainability Terms      December 2024
+Internet-Draft     Environmental Sustainability Terms         April 2025
 
 
       Goal 11   Sustainable cities and communities
@@ -669,9 +725,9 @@ Internet-Draft     Environmental Sustainability Terms      December 2024
 
 
 
-Pignataro, et al.         Expires 30 June 2025                 [Page 12]
+Pignataro, et al.        Expires 25 October 2025               [Page 13]
 
-Internet-Draft     Environmental Sustainability Terms      December 2024
+Internet-Draft     Environmental Sustainability Terms         April 2025
 
 
    routes chosen.  What this implies is that we are responsible for the
@@ -725,9 +781,9 @@ Internet-Draft     Environmental Sustainability Terms      December 2024
 
 
 
-Pignataro, et al.         Expires 30 June 2025                 [Page 13]
+Pignataro, et al.        Expires 25 October 2025               [Page 14]
 
-Internet-Draft     Environmental Sustainability Terms      December 2024
+Internet-Draft     Environmental Sustainability Terms         April 2025
 
 
    incomes, housing, gender equality, social equity, inclusiveness,
@@ -781,9 +837,9 @@ Internet-Draft     Environmental Sustainability Terms      December 2024
 
 
 
-Pignataro, et al.         Expires 30 June 2025                 [Page 14]
+Pignataro, et al.        Expires 25 October 2025               [Page 15]
 
-Internet-Draft     Environmental Sustainability Terms      December 2024
+Internet-Draft     Environmental Sustainability Terms         April 2025
 
 
    The following are some examples of internetworking for
@@ -837,9 +893,9 @@ Internet-Draft     Environmental Sustainability Terms      December 2024
 
 
 
-Pignataro, et al.         Expires 30 June 2025                 [Page 15]
+Pignataro, et al.        Expires 25 October 2025               [Page 16]
 
-Internet-Draft     Environmental Sustainability Terms      December 2024
+Internet-Draft     Environmental Sustainability Terms         April 2025
 
 
       sustainability.  Special requirements for applications in this
@@ -893,9 +949,9 @@ Internet-Draft     Environmental Sustainability Terms      December 2024
 
 
 
-Pignataro, et al.         Expires 30 June 2025                 [Page 16]
+Pignataro, et al.        Expires 25 October 2025               [Page 17]
 
-Internet-Draft     Environmental Sustainability Terms      December 2024
+Internet-Draft     Environmental Sustainability Terms         April 2025
 
 
    or aspects such as reduced energy consumption and increased energy
@@ -949,9 +1005,9 @@ Internet-Draft     Environmental Sustainability Terms      December 2024
 
 
 
-Pignataro, et al.         Expires 30 June 2025                 [Page 17]
+Pignataro, et al.        Expires 25 October 2025               [Page 18]
 
-Internet-Draft     Environmental Sustainability Terms      December 2024
+Internet-Draft     Environmental Sustainability Terms         April 2025
 
 
    [CUE]      Belady, C., Azevedo, D., Patterson, M., Pouchet, J., and
@@ -1005,9 +1061,9 @@ Internet-Draft     Environmental Sustainability Terms      December 2024
 
 
 
-Pignataro, et al.         Expires 30 June 2025                 [Page 18]
+Pignataro, et al.        Expires 25 October 2025               [Page 19]
 
-Internet-Draft     Environmental Sustainability Terms      December 2024
+Internet-Draft     Environmental Sustainability Terms         April 2025
 
 
    [ITU-ICT-SDG]
@@ -1061,9 +1117,9 @@ Internet-Draft     Environmental Sustainability Terms      December 2024
 
 
 
-Pignataro, et al.         Expires 30 June 2025                 [Page 19]
+Pignataro, et al.        Expires 25 October 2025               [Page 20]
 
-Internet-Draft     Environmental Sustainability Terms      December 2024
+Internet-Draft     Environmental Sustainability Terms         April 2025
 
 
 Authors' Addresses
@@ -1086,6 +1142,10 @@ Authors' Addresses
    Email: helbakoury@gmail.com
 
 
+   Shailesh Prabhu
+   Nokia
+   India
+   Email: shailesh.prabhu@nokia.com
 
 
 
@@ -1113,8 +1173,4 @@ Authors' Addresses
 
 
 
-
-
-
-
-Pignataro, et al.         Expires 30 June 2025                 [Page 20]
+Pignataro, et al.        Expires 25 October 2025               [Page 21]

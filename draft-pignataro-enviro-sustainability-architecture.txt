@@ -5,7 +5,7 @@
 Network Working Group                                  C. Pignataro, Ed.
 Internet-Draft                                      Blue Fern Consulting
 Intended status: Informational                                 A. Rezaki
-Expires: 30 June 2025                                              Nokia
+Expires: 25 October 2025                                           Nokia
                                                              S. Krishnan
                                                                    Cisco
                                                                 J. Arkko
@@ -14,11 +14,11 @@ Expires: 30 June 2025                                              Nokia
                                                                Sympotech
                                                             H. ElBakoury
                                                   Independent Consultant
-                                                        27 December 2024
+                                                           23 April 2025
 
 
      Architectural Considerations for Environmental Sustainability
-         draft-pignataro-enviro-sustainability-architecture-01
+         draft-pignataro-enviro-sustainability-architecture-02
 
 Abstract
 
@@ -41,11 +41,11 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 30 June 2025.
+   This Internet-Draft will expire on 25 October 2025.
 
 Copyright Notice
 
-   Copyright (c) 2024 IETF Trust and the persons identified as the
+   Copyright (c) 2025 IETF Trust and the persons identified as the
    document authors.  All rights reserved.
 
 
@@ -53,9 +53,9 @@ Copyright Notice
 
 
 
-Pignataro, et al.         Expires 30 June 2025                  [Page 1]
+Pignataro, et al.        Expires 25 October 2025                [Page 1]
 
-Internet-Draft     Sustainability Arch Considerations      December 2024
+Internet-Draft     Sustainability Arch Considerations         April 2025
 
 
    This document is subject to BCP 78 and the IETF Trust's Legal
@@ -109,9 +109,9 @@ Table of Contents
 
 
 
-Pignataro, et al.         Expires 30 June 2025                  [Page 2]
+Pignataro, et al.        Expires 25 October 2025                [Page 2]
 
-Internet-Draft     Sustainability Arch Considerations      December 2024
+Internet-Draft     Sustainability Arch Considerations         April 2025
 
 
    At the same time, internetworking technologies themselves have a
@@ -165,9 +165,9 @@ Internet-Draft     Sustainability Arch Considerations      December 2024
 
 
 
-Pignataro, et al.         Expires 30 June 2025                  [Page 3]
+Pignataro, et al.        Expires 25 October 2025                [Page 3]
 
-Internet-Draft     Sustainability Arch Considerations      December 2024
+Internet-Draft     Sustainability Arch Considerations         April 2025
 
 
    Most recently, various forces elevate the need for sustainability in
@@ -221,9 +221,9 @@ Internet-Draft     Sustainability Arch Considerations      December 2024
 
 
 
-Pignataro, et al.         Expires 30 June 2025                  [Page 4]
+Pignataro, et al.        Expires 25 October 2025                [Page 4]
 
-Internet-Draft     Sustainability Arch Considerations      December 2024
+Internet-Draft     Sustainability Arch Considerations         April 2025
 
 
    In this scenario, a topology optimized for performance and
@@ -277,9 +277,9 @@ Internet-Draft     Sustainability Arch Considerations      December 2024
 
 
 
-Pignataro, et al.         Expires 30 June 2025                  [Page 5]
+Pignataro, et al.        Expires 25 October 2025                [Page 5]
 
-Internet-Draft     Sustainability Arch Considerations      December 2024
+Internet-Draft     Sustainability Arch Considerations         April 2025
 
 
 2.3.1.  Redundancy and Sustainability
@@ -333,9 +333,9 @@ Internet-Draft     Sustainability Arch Considerations      December 2024
 
 
 
-Pignataro, et al.         Expires 30 June 2025                  [Page 6]
+Pignataro, et al.        Expires 25 October 2025                [Page 6]
 
-Internet-Draft     Sustainability Arch Considerations      December 2024
+Internet-Draft     Sustainability Arch Considerations         April 2025
 
 
    goals.  For example, in order to ensure minimal latency, a network
@@ -389,9 +389,9 @@ Internet-Draft     Sustainability Arch Considerations      December 2024
 
 
 
-Pignataro, et al.         Expires 30 June 2025                  [Page 7]
+Pignataro, et al.        Expires 25 October 2025                [Page 7]
 
-Internet-Draft     Sustainability Arch Considerations      December 2024
+Internet-Draft     Sustainability Arch Considerations         April 2025
 
 
       Also referred to as Allocational models, start by allocating or
@@ -445,9 +445,9 @@ Internet-Draft     Sustainability Arch Considerations      December 2024
 
 
 
-Pignataro, et al.         Expires 30 June 2025                  [Page 8]
+Pignataro, et al.        Expires 25 October 2025                [Page 8]
 
-Internet-Draft     Sustainability Arch Considerations      December 2024
+Internet-Draft     Sustainability Arch Considerations         April 2025
 
 
    Dimensioning:
@@ -501,9 +501,9 @@ Internet-Draft     Sustainability Arch Considerations      December 2024
 
 
 
-Pignataro, et al.         Expires 30 June 2025                  [Page 9]
+Pignataro, et al.        Expires 25 October 2025                [Page 9]
 
-Internet-Draft     Sustainability Arch Considerations      December 2024
+Internet-Draft     Sustainability Arch Considerations         April 2025
 
 
 3.  Sustainability Requirements and Phases
@@ -557,9 +557,9 @@ Internet-Draft     Sustainability Arch Considerations      December 2024
 
 
 
-Pignataro, et al.         Expires 30 June 2025                 [Page 10]
+Pignataro, et al.        Expires 25 October 2025               [Page 10]
 
-Internet-Draft     Sustainability Arch Considerations      December 2024
+Internet-Draft     Sustainability Arch Considerations         April 2025
 
 
    software, platforms, applications, and protocols.
@@ -613,9 +613,9 @@ Internet-Draft     Sustainability Arch Considerations      December 2024
 
 
 
-Pignataro, et al.         Expires 30 June 2025                 [Page 11]
+Pignataro, et al.        Expires 25 October 2025               [Page 11]
 
-Internet-Draft     Sustainability Arch Considerations      December 2024
+Internet-Draft     Sustainability Arch Considerations         April 2025
 
 
       -  Sustainability metrics and data models ought to describe how to
@@ -664,28 +664,28 @@ Internet-Draft     Sustainability Arch Considerations      December 2024
               draft-cparsk-eimpact-sustainability-considerations-07>.
 
    [I-D.irtf-nmrg-green-ps]
-              Clemm, A., Westphal, C., Tantsura, J., Ciavaglia, L.,
-              Pignataro, C., and M. Odini, "Challenges and Opportunities
+              Clemm, A., Pignataro, C., Westphal, C., Ciavaglia, L.,
+              Tantsura, J., and M. Odini, "Challenges and Opportunities
 
 
 
-Pignataro, et al.         Expires 30 June 2025                 [Page 12]
+Pignataro, et al.        Expires 25 October 2025               [Page 12]
 
-Internet-Draft     Sustainability Arch Considerations      December 2024
+Internet-Draft     Sustainability Arch Considerations         April 2025
 
 
               in Management for Green Networking", Work in Progress,
-              Internet-Draft, draft-irtf-nmrg-green-ps-03, 28 June 2024,
-              <https://datatracker.ietf.org/doc/html/draft-irtf-nmrg-
-              green-ps-03>.
+              Internet-Draft, draft-irtf-nmrg-green-ps-06, 15 March
+              2025, <https://datatracker.ietf.org/doc/html/draft-irtf-
+              nmrg-green-ps-06>.
 
    [I-D.pignataro-green-enviro-sust-terminology]
               Pignataro, C., Rezaki, A., and H. ElBakoury,
               "Environmental Sustainability Terminology and Concepts",
               Work in Progress, Internet-Draft, draft-pignataro-green-
-              enviro-sust-terminology-00, 18 October 2024,
+              enviro-sust-terminology-01, 27 December 2024,
               <https://datatracker.ietf.org/doc/html/draft-pignataro-
-              green-enviro-sust-terminology-00>.
+              green-enviro-sust-terminology-01>.
 
    [RFC8403]  Geib, R., Ed., Filsfils, C., Pignataro, C., Ed., and N.
               Kumar, "A Scalable and Topology-Aware MPLS Data-Plane
@@ -725,9 +725,9 @@ Authors' Addresses
 
 
 
-Pignataro, et al.         Expires 30 June 2025                 [Page 13]
+Pignataro, et al.        Expires 25 October 2025               [Page 13]
 
-Internet-Draft     Sustainability Arch Considerations      December 2024
+Internet-Draft     Sustainability Arch Considerations         April 2025
 
 
    Alexander Clemm
@@ -781,4 +781,4 @@ Internet-Draft     Sustainability Arch Considerations      December 2024
 
 
 
-Pignataro, et al.         Expires 30 June 2025                 [Page 14]
+Pignataro, et al.        Expires 25 October 2025               [Page 14]

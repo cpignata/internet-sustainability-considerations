@@ -5,26 +5,26 @@
 Network Working Group                                  C. Pignataro, Ed.
 Internet-Draft                                      Blue Fern Consulting
 Intended status: Best Current Practice                         A. Rezaki
-Expires: 30 June 2025                                              Nokia
+Expires: 25 October 2025                                           Nokia
                                                                 J. Arkko
                                                                 Ericsson
                                                                 A. Clemm
                                                                Futurewei
                                                             H. ElBakoury
                                                   Independent Consultant
-                                                        27 December 2024
+                                                           23 April 2025
 
 
 Sustainability Considerations for Networking Protocols and Applications
-            draft-pignataro-enviro-sustainability-consid-01
+            draft-pignataro-enviro-sustainability-consid-02
 
 Abstract
 
    Embedding sustainability considerations at the design of new
    protocols and extensions is more effective than attempting to do so
    after-the-fact.  Consequently, this document also gives network,
-   protocol, and application designers and implementors sustainability-
-   related advice and guideance.
+   protocol, and application designers and implementers sustainability-
+   related advice and guidance.
 
    This document recommends to authors and reviewers the inclusion of a
    Sustainability Considerations section in IETF Internet-Drafts and
@@ -45,7 +45,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 30 June 2025.
+   This Internet-Draft will expire on 25 October 2025.
 
 
 
@@ -53,14 +53,14 @@ Status of This Memo
 
 
 
-Pignataro, et al.         Expires 30 June 2025                  [Page 1]
+Pignataro, et al.        Expires 25 October 2025                [Page 1]
 
-Internet-Draft        Sustainability Considerations        December 2024
+Internet-Draft        Sustainability Considerations           April 2025
 
 
 Copyright Notice
 
-   Copyright (c) 2024 IETF Trust and the persons identified as the
+   Copyright (c) 2025 IETF Trust and the persons identified as the
    document authors.  All rights reserved.
 
    This document is subject to BCP 78 and the IETF Trust's Legal
@@ -79,12 +79,12 @@ Table of Contents
    2.  Implications to the IETF  . . . . . . . . . . . . . . . . . .   3
    3.  Sustainability Guidelines for Protocol and Network Designers
            and Implementers  . . . . . . . . . . . . . . . . . . . .   3
-   4.  Conclusion  . . . . . . . . . . . . . . . . . . . . . . . . .   6
-     4.1.  Call to Action  . . . . . . . . . . . . . . . . . . . . .   6
-   5.  Security Considerations . . . . . . . . . . . . . . . . . . .   6
-   6.  Acknowledgements  . . . . . . . . . . . . . . . . . . . . . .   7
-   7.  Informative References  . . . . . . . . . . . . . . . . . . .   7
-   Authors' Addresses  . . . . . . . . . . . . . . . . . . . . . . .   7
+   4.  Conclusion  . . . . . . . . . . . . . . . . . . . . . . . . .   7
+     4.1.  Call to Action  . . . . . . . . . . . . . . . . . . . . .   7
+   5.  Security Considerations . . . . . . . . . . . . . . . . . . .   8
+   6.  Acknowledgements  . . . . . . . . . . . . . . . . . . . . . .   8
+   7.  Informative References  . . . . . . . . . . . . . . . . . . .   8
+   Authors' Addresses  . . . . . . . . . . . . . . . . . . . . . . .   8
 
 1.  Introduction
 
@@ -98,7 +98,7 @@ Table of Contents
    This document leverages the terminology and concepts defined in
    [I-D.pignataro-green-enviro-sust-terminology], and readers are
    expected to be familiar with those.  Specifically, Section 3.1.1 of
-   [I-D.pignataro-green-enviro-sust-terminology] describes contepts of
+   [I-D.pignataro-green-enviro-sust-terminology] describes concepts of
    particular relevance to this draft.
 
 
@@ -109,17 +109,17 @@ Table of Contents
 
 
 
-Pignataro, et al.         Expires 30 June 2025                  [Page 2]
+Pignataro, et al.        Expires 25 October 2025                [Page 2]
 
-Internet-Draft        Sustainability Considerations        December 2024
+Internet-Draft        Sustainability Considerations           April 2025
 
 
 2.  Implications to the IETF
 
    This section describes the implications of sustainability to the
    IETF.  Specifically, the high-level relevant areas on which the IETF
-   can act upon, and a rough prioritization.  These potentially include
-   use cases, protocols, metrics, etc.
+   can act, and a rough prioritization.  These potentially include use
+   cases, protocols, metrics, etc.
 
    A key area to understand the relevance and implication is regarding
    IETF Protocols.
@@ -147,7 +147,7 @@ Internet-Draft        Sustainability Considerations        December 2024
              methods, explaining environmental impact benefits.
 
        a.3.  Clearly state the units used for each magnitude in every
-             analysis (e.g., gCO2e/KWh.)
+             analysis (e.g., gCO2e/kWh.)
 
    b.  Network Management:
        Several areas of network management have direct relationship with
@@ -165,19 +165,40 @@ Internet-Draft        Sustainability Considerations        December 2024
 
 
 
-Pignataro, et al.         Expires 30 June 2025                  [Page 3]
+Pignataro, et al.        Expires 25 October 2025                [Page 3]
 
-Internet-Draft        Sustainability Considerations        December 2024
+Internet-Draft        Sustainability Considerations           April 2025
 
 
        b.2.  Managed Elements:
              Facilitate, extend, and enrich the manageability of network
-             elements and sub-elements which have environmental impact,
-             such as Power Supplies.  For example, provide visibility
-             into sourced power, e.g. energy mix, and allow to account
-             for the "dirtiness" of power being consumed to obtain a
-             truer picture of sustainability than can be gained by
-             visibility into power consumption alone.
+             elements and sub-elements which have an environmental
+             impact, such as Power Supplies.  For example, provide
+             visibility into sourced power, e.g. energy mix, and allow
+             to account for the "dirtiness" of power being consumed to
+             obtain a truer picture of sustainability than can be gained
+             by visibility into power consumption alone.
+
+       b.3.  Automation and Policy Enforcement:
+             Network management systems should evolve from being passive
+             observers of sustainability metrics to actively enforcing
+             sustainability-oriented policies.  Once energy consumption,
+             carbon intensity, and other environmental data are exposed,
+             automated systems should be empowered to make real-time
+             adjustments aligned with operator-defined sustainability
+             goals.  For example, network orchestrators could
+             dynamically shift workloads or traffic away from
+             infrastructure currently powered by high-carbon sources, or
+             initiate graceful scaling down of non-critical services
+             during periods of high energy demand.  Similarly, protocols
+             and management frameworks could support scheduled
+             downtimes, power state transitions, or routing policy
+             adaptations based on thresholds related to energy
+             efficiency, carbon emissions, or resource usage.  Embedding
+             such automation capabilities ensures that sustainability is
+             not merely a reporting layer, but a live operational
+             dimension that can be acted upon in-network, in alignment
+             with business or regulatory objectives.
 
    c.  Energy Management:
        Minimizing energy consumption is a critical consideration in
@@ -197,6 +218,14 @@ Internet-Draft        Sustainability Considerations        December 2024
              of the energy consumption when under full load.  The
              implication of this is that the volume of traffic by itself
              is of relative consequence to energy consumption, as long
+
+
+
+Pignataro, et al.        Expires 25 October 2025                [Page 4]
+
+Internet-Draft        Sustainability Considerations           April 2025
+
+
              as the volume does not get to the point where additional
              equipment needs to be added to the network to handle peak
              loads.
@@ -217,20 +246,11 @@ Internet-Draft        Sustainability Considerations        December 2024
              sleep (absent other communications), and in such a case,
              would an alternative pattern be feasible?
 
-
-
-
-
-Pignataro, et al.         Expires 30 June 2025                  [Page 4]
-
-Internet-Draft        Sustainability Considerations        December 2024
-
-
        c.4.  Exploiting burstiness versus smoothening of traffic.  Is it
-             feasible to design the protocol in such a way that traffic
-             is sent with a smoother traffic pattern with lower traffic
-             volumes that are sent continuously, as opposed to a way
-             that traffic is bulked up and then sent in one fell swoop?
+             feasible to design the protocol to transmit with a smoother
+             traffic pattern with lower traffic volumes that are sent
+             continuously, as opposed to a way that traffic is bulked up
+             and then sent in one fell swoop?
 
        c.5.  Rapid discovery and convergence.  Does the protocol involve
              the exchange of state and information about other systems?
@@ -242,8 +262,8 @@ Internet-Draft        Sustainability Considerations        December 2024
              sleep, the associated overhead of going offline and coming
              back online should be minimized.  By shortening the time
              interval needed to go offline and come back online, it
-             might be possible to have enter sleep mode in situations
-             where it would otherwise not be feasible.
+             might be possible to enter sleep mode in situations where
+             it would otherwise not be feasible.
 
        c.6.  Encoding schemes.  How much computational effort goes into
              encoding and decoding?  Assess the tradeoff between
@@ -251,6 +271,16 @@ Internet-Draft        Sustainability Considerations        December 2024
              into carbon for cycles to perform coding operations.
 
    d.  Carbon Awareness:
+
+
+
+
+
+
+Pignataro, et al.        Expires 25 October 2025                [Page 5]
+
+Internet-Draft        Sustainability Considerations           April 2025
+
 
        d.1.  Consider Carbon Intensity (CI) / Emission Factor (EF) as an
              attribute.  For example, CI is used to optimize for lower-
@@ -272,17 +302,57 @@ Internet-Draft        Sustainability Considerations        December 2024
        GHG emissions, and into water usage, raw materials usage,
        circularity in supply chain, repurpose, reuse, and recycle, etc.
 
-       e.1.  WIP
+       e.1.  Resource Awareness and Reporting.  Beyond greenhouse gas
+             emissions, protocols should consider enabling awareness of
+             other environmental resources such as water and raw
+             materials.  For example, data centers may vary
+             significantly in their water usage for cooling, depending
+             on location, infrastructure, and workload.  Protocols can
+             support sustainability by exposing or integrating with
+             telemetry systems that report such metrics.  This allows
+             higher-layer systems and orchestration frameworks to make
+             deployment decisions that are sensitive to environmental
+             constraints, such as avoiding water-intensive
+             infrastructure during drought conditions or favoring
+             resource-efficient sites for long-running tasks.
+             Furthermore, protocols can provide policy hooks or
+             signaling interfaces that allow operators to incorporate
+             environmental metrics beyond carbon, into routing, load
+             balancing, and service placement decisions.  While the
+             protocols themselves may not directly control hardware or
+             facility resource consumption, they can facilitate the
+             collection and application of such insights in
+             sustainability-aware operations.
+
+       e.2.  Lifecycle Impact and Circularity.  Sustainability also
+             requires a full-lifecycle perspective, considering how
+             protocol design may influence the longevity, reuse, and
+             recyclability of devices and systems.  Protocols that
+             prioritize backward compatibility, modularity, and support
+             for older hardware can extend the operational lifespan of
 
 
 
-
-Pignataro, et al.         Expires 30 June 2025                  [Page 5]
+Pignataro, et al.        Expires 25 October 2025                [Page 6]
 
-Internet-Draft        Sustainability Considerations        December 2024
+Internet-Draft        Sustainability Considerations           April 2025
 
 
-       e.2.  WIP
+             network infrastructure, reducing the frequency of hardware
+             refreshes and thereby limiting e-waste.  In contrast,
+             designs that require frequent upgrades or discard older
+             technologies prematurely may contribute to unsustainable
+             hardware churn.  Protocols can also enable lifecycle
+             tracking through telemetry that helps estimate remaining
+             useful life or suitability for repurposing.  By
+             accommodating long-lived devices, especially those in
+             constrained or remote environments, protocols can promote
+             the principles of a circular economy where systems are
+             designed to be reused, repaired, and recycled rather than
+             discarded.  Such considerations are particularly important
+             as the scale of Internet-connected devices continues to
+             grow, bringing with it a corresponding increase in material
+             and environmental impact.
 
 4.  Conclusion
 
@@ -307,15 +377,22 @@ Internet-Draft        Sustainability Considerations        December 2024
    The intention of this document is multifaceted: establish definitions
    and a lexicon for sustainability, characterize environmental
    implications of internetworking technologies, and provide specific
-   guidelines for designers and implementors.
+   guidelines for designers and implementers.
 
    Making these objectives actionable involves:
 
-   1.  Familiarize yourself with the environmental sustainabilithy
-       terms,
+   1.  Familiarize yourself with the environmental sustainability terms,
 
    2.  understand the environmental sustainability implications to
        protocol and architecture, and
+
+
+
+
+Pignataro, et al.        Expires 25 October 2025                [Page 7]
+
+Internet-Draft        Sustainability Considerations           April 2025
+
 
    3.  consider, qualify, quantify, and explain the specific guidelines
        in Section 3 as you develop protocols, extensions, and
@@ -326,17 +403,6 @@ Internet-Draft        Sustainability Considerations        December 2024
    Sustainable practices offer many environmental, economic, and social
    benefits, and security is a route to sustainability rather than a
    hurdle to clear.
-
-
-
-
-
-
-
-Pignataro, et al.         Expires 30 June 2025                  [Page 6]
-
-Internet-Draft        Sustainability Considerations        December 2024
-
 
 6.  Acknowledgements
 
@@ -358,9 +424,9 @@ Internet-Draft        Sustainability Considerations        December 2024
               Pignataro, C., Rezaki, A., and H. ElBakoury,
               "Environmental Sustainability Terminology and Concepts",
               Work in Progress, Internet-Draft, draft-pignataro-green-
-              enviro-sust-terminology-00, 18 October 2024,
+              enviro-sust-terminology-01, 27 December 2024,
               <https://datatracker.ietf.org/doc/html/draft-pignataro-
-              green-enviro-sust-terminology-00>.
+              green-enviro-sust-terminology-01>.
 
 Authors' Addresses
 
@@ -376,6 +442,14 @@ Authors' Addresses
    Email: ali.rezaki@nokia.com
 
 
+
+
+
+Pignataro, et al.        Expires 25 October 2025                [Page 8]
+
+Internet-Draft        Sustainability Considerations           April 2025
+
+
    Jari Arkko
    Ericsson
    Email: jari.arkko@ericsson.com
@@ -386,14 +460,6 @@ Authors' Addresses
    2220 Central Expressway
    Santa Clara,  CA 95050
    United States of America
-
-
-
-Pignataro, et al.         Expires 30 June 2025                  [Page 7]
-
-Internet-Draft        Sustainability Considerations        December 2024
-
-
    Email: ludwig@clemm.org
 
 
@@ -435,14 +501,4 @@ Internet-Draft        Sustainability Considerations        December 2024
 
 
 
-
-
-
-
-
-
-
-
-
-
-Pignataro, et al.         Expires 30 June 2025                  [Page 8]
+Pignataro, et al.        Expires 25 October 2025                [Page 9]
