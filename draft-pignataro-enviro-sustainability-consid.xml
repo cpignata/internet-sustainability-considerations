@@ -171,6 +171,9 @@
               <t>
                 Managed Elements:<br />Facilitate, extend, and enrich the manageability of network elements and sub-elements which have an environmental impact, such as Power Supplies. For example, provide visibility into sourced power, e.g. energy mix, and allow to account for the "dirtiness" of power being consumed to obtain a truer picture of sustainability than can be gained by visibility into power consumption alone.
               </t>
+              <t>
+                Automation and Policy Enforcement:<br />Network management systems should evolve from being passive observers of sustainability metrics to actively enforcing sustainability-oriented policies. Once energy consumption, carbon intensity, and other environmental data are exposed, automated systems should be empowered to make real-time adjustments aligned with operator-defined sustainability goals. For example, network orchestrators could dynamically shift workloads or traffic away from infrastructure currently powered by high-carbon sources, or initiate graceful scaling down of non-critical services during periods of high energy demand. Similarly, protocols and management frameworks could support scheduled downtimes, power state transitions, or routing policy adaptations based on thresholds related to energy efficiency, carbon emissions, or resource usage. Embedding such automation capabilities ensures that sustainability is not merely a reporting layer, but a live operational dimension that can be acted upon in-network, in alignment with business or regulatory objectives.
+              </t>
             </list>
           </t>
 
