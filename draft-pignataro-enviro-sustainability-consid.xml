@@ -218,7 +218,7 @@
 
             <list style="format %p%d.">
               <t>
-                WIP
+                Resource Awareness and Reporting. Beyond greenhouse gas emissions, protocols should consider enabling awareness of other environmental resources such as water and raw materials. For example, data centers may vary significantly in their water usage for cooling, depending on location, infrastructure, and workload. Protocols can support sustainability by exposing or integrating with telemetry systems that report such metrics. This allows higher-layer systems and orchestration frameworks to make deployment decisions that are sensitive to environmental constraints, such as avoiding water-intensive infrastructure during drought conditions or favoring resource-efficient sites for long-running tasks. Furthermore, protocols can provide policy hooks or signaling interfaces that allow operators to incorporate environmental metrics beyond carbon, into routing, load balancing, and service placement decisions. While the protocols themselves may not directly control hardware or facility resource consumption, they can facilitate the collection and application of such insights in sustainability-aware operations.
               </t>
               <t>
                 WIP
