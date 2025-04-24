@@ -258,9 +258,10 @@
 
 
     <section title="Security Considerations">
-      <t>
-        Sustainable practices offer many environmental, economic, and social benefits, and  security is a route to sustainability rather than a hurdle to clear.
-      </t>
+      <t>Sustainable practices offer many environmental, economic, and social benefits, and  security is a route to sustainability rather than a hurdle to clear. However, incorporating sustainability into network protocols and systems introduces new dimensions of trust. Many sustainability-related decisions may rely on external or distributed data sources, such as carbon intensity feeds, energy consumption telemetry, or environmental metrics shared between operators or facilities. It is important to consider the authenticity, integrity, and provenance of this data, especially when such information is used to trigger automated changes in network behavior.</t>
+      <t>Protocols and systems should therefore support mechanisms to verify the origin and integrity of sustainability data received from external parties. For example, carbon intensity signals could be signed or fetched over authenticated and encrypted channels. Data from managed network elements (e.g., smart power supplies, cooling systems) should be exposed through secure interfaces with appropriate access control and auditability. Where distributed coordination is involved, such as in multi-domain sustainability-aware routing, there is risk of misinformation, either accidental or malicious, impacting global optimization decisions.</t>
+      <t>Moreover, sustainability-related telemetry may reveal information about network usage patterns, equipment lifecycle stages, or infrastructure sourcing. Care must be taken to ensure that such disclosures do not leak sensitive operational, competitive, or geographical data. Implementations should consider privacy-preserving techniques, such as aggregation, obfuscation, or differential privacy, especially in shared or public reporting contexts.</t>
+      <t>Security in the sustainability context is not only about protecting the network from external threats, but also about ensuring trustworthy, private, and verifiable environmental data exchange. Without appropriate security, sustainability efforts may be undermined by unreliable data, misreporting, or abuse.</t>
     </section>
 
     <section title="Acknowledgements">
