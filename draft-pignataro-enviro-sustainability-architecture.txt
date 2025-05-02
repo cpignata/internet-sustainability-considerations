@@ -5,7 +5,7 @@
 Network Working Group                                  C. Pignataro, Ed.
 Internet-Draft                                      Blue Fern Consulting
 Intended status: Informational                                 A. Rezaki
-Expires: 25 October 2025                                           Nokia
+Expires: 3 November 2025                                           Nokia
                                                              S. Krishnan
                                                                    Cisco
                                                                 J. Arkko
@@ -14,7 +14,9 @@ Expires: 25 October 2025                                           Nokia
                                                                Sympotech
                                                             H. ElBakoury
                                                   Independent Consultant
-                                                           23 April 2025
+                                                               S. Prabhu
+                                                                   Nokia
+                                                              2 May 2025
 
 
      Architectural Considerations for Environmental Sustainability
@@ -22,8 +24,8 @@ Expires: 25 October 2025                                           Nokia
 
 Abstract
 
-   This document describes several of the design tradeoffs for trying to
-   optimize for sustainability along with the other common networking
+   This document describes several of the design tradeoffs involved in
+   optimizing for sustainability along with the other common networking
    metrics such as performance and availability.
 
 Status of This Memo
@@ -41,7 +43,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 25 October 2025.
+   This Internet-Draft will expire on 3 November 2025.
 
 Copyright Notice
 
@@ -51,11 +53,9 @@ Copyright Notice
 
 
 
-
-
-Pignataro, et al.        Expires 25 October 2025                [Page 1]
+Pignataro, et al.        Expires 3 November 2025                [Page 1]
 
-Internet-Draft     Sustainability Arch Considerations         April 2025
+Internet-Draft     Sustainability Arch Considerations           May 2025
 
 
    This document is subject to BCP 78 and the IETF Trust's Legal
@@ -79,15 +79,15 @@ Table of Contents
      2.5.  End-to-End Sustainability . . . . . . . . . . . . . . . .   7
      2.6.  Attributional and Consequential Models  . . . . . . . . .   7
      2.7.  The Role of Network Management and Orchestration  . . . .   8
-   3.  Sustainability Requirements and Phases  . . . . . . . . . . .  10
-     3.1.  Phase 1: Visibility . . . . . . . . . . . . . . . . . . .  10
-     3.2.  Phase 2: Insights and Recommendations . . . . . . . . . .  10
-     3.3.  Phase 3: Self-optimization and Automation . . . . . . . .  11
-       3.3.1.  Cycle of Phases . . . . . . . . . . . . . . . . . . .  11
-   4.  Security Considerations . . . . . . . . . . . . . . . . . . .  11
-   5.  Acknowledgements  . . . . . . . . . . . . . . . . . . . . . .  12
-   6.  Informative References  . . . . . . . . . . . . . . . . . . .  12
-   Authors' Addresses  . . . . . . . . . . . . . . . . . . . . . . .  13
+   3.  Sustainability Requirements and Phases  . . . . . . . . . . .  11
+     3.1.  Phase 1: Visibility . . . . . . . . . . . . . . . . . . .  11
+     3.2.  Phase 2: Insights and Recommendations . . . . . . . . . .  12
+     3.3.  Phase 3: Self-optimization and Automation . . . . . . . .  12
+       3.3.1.  Cycle of Phases . . . . . . . . . . . . . . . . . . .  12
+   4.  Security Considerations . . . . . . . . . . . . . . . . . . .  13
+   5.  Acknowledgements  . . . . . . . . . . . . . . . . . . . . . .  13
+   6.  Informative References  . . . . . . . . . . . . . . . . . . .  13
+   Authors' Addresses  . . . . . . . . . . . . . . . . . . . . . . .  14
 
 1.  Introduction
 
@@ -109,9 +109,9 @@ Table of Contents
 
 
 
-Pignataro, et al.        Expires 25 October 2025                [Page 2]
+Pignataro, et al.        Expires 3 November 2025                [Page 2]
 
-Internet-Draft     Sustainability Arch Considerations         April 2025
+Internet-Draft     Sustainability Arch Considerations           May 2025
 
 
    At the same time, internetworking technologies themselves have a
@@ -156,8 +156,8 @@ Internet-Draft     Sustainability Arch Considerations         April 2025
 2.1.  Design Tradeoffs
 
    Traditionally, digital communication networks are optimized for a
-   specific set of criteria that proxies for business metrics.  A
-   network operator providing services to their customers intends to
+   specific set of criteria that serve as proxies for business metrics.
+   A network operator providing services to their customers intends to
    maximize profits, by increasing top-line revenue and decreasing
    bottom-line associated costs.  This directly translates to goals of
    optimizing performance and availability, while reducing various
@@ -165,9 +165,9 @@ Internet-Draft     Sustainability Arch Considerations         April 2025
 
 
 
-Pignataro, et al.        Expires 25 October 2025                [Page 3]
+Pignataro, et al.        Expires 3 November 2025                [Page 3]
 
-Internet-Draft     Sustainability Arch Considerations         April 2025
+Internet-Draft     Sustainability Arch Considerations           May 2025
 
 
    Most recently, various forces elevate the need for sustainability in
@@ -176,7 +176,7 @@ Internet-Draft     Sustainability Arch Considerations         April 2025
 
    Optimizing only network availability (e.g., by having excess capacity
    and backup paths) or optimizing only performance (e.g., by increasing
-   speeds selecting paths based on delays only) can seemingly be in
+   speeds or selecting paths based solely on delays) can seemingly be in
    opposition to optimizing sustainability objectives.  For a given
    application, use-case, or vertical realization of technology, a
    Pareto-efficient choice can potentially improve sustainability
@@ -185,7 +185,7 @@ Internet-Draft     Sustainability Arch Considerations         April 2025
 
    Consequently, network architects and designers are presented with a
    set of new design tradeoffs: a multi-objective optimization that
-   satisfies border requirements and global optima for availability,
+   satisfies broader requirements and global optima for availability,
    performance, and sustainability simultaneously.  This is not unlike
    the doughnut economics model concept described in [Doughnut].
 
@@ -221,9 +221,9 @@ Internet-Draft     Sustainability Arch Considerations         April 2025
 
 
 
-Pignataro, et al.        Expires 25 October 2025                [Page 4]
+Pignataro, et al.        Expires 3 November 2025                [Page 4]
 
-Internet-Draft     Sustainability Arch Considerations         April 2025
+Internet-Draft     Sustainability Arch Considerations           May 2025
 
 
    In this scenario, a topology optimized for performance and
@@ -236,18 +236,18 @@ Internet-Draft     Sustainability Arch Considerations         April 2025
    different options present themselves, each of which involves a
    tradeoff.  One of the options is to remove from the topology Router 3
    and associated links, and shutdown links and optics in two or three
-   of the parallel links.  This will allow to conserve energy that will
-   no longer be required to operatore Router 3 and the affected links.
-   Another option is to completely shutdown all the parallel links and
-   route traffic through Router 3 (i.e., not maximizing performance
-   alone, but maximizing at the time performance, availability and
-   resiliency, and sustainability.)  The choice between these two
-   options, as well as the option to stick with the original topology,
-   will depend on choices that the network operator will have to make,
-   taking into account the aggregate sustainability metrics of network
-   elements in each of the two topologies as well as the effect these
-   choices will have on availability/resiliency which will be reduced as
-   a result.
+   of the parallel links.  This will allow the conservation of energy
+   that will no longer be required to operate Router 3 and the affected
+   links.  Another option is to completely shutdown all the parallel
+   links and route traffic through Router 3 (i.e., not maximizing
+   performance alone, but maximizing at the time performance,
+   availability and resiliency, and sustainability.)  The choice between
+   these two options, as well as the option to stick with the original
+   topology, will depend on choices that the network operator will have
+   to make, taking into account the aggregate sustainability metrics of
+   network elements in each of the two topologies as well as the effect
+   these choices will have on availability/resiliency which will be
+   reduced as a result.
 
    Another option is to use flexible Ethernet, where the five links
    combined are aggregated into one active virtual link which has 15
@@ -277,9 +277,9 @@ Internet-Draft     Sustainability Arch Considerations         April 2025
 
 
 
-Pignataro, et al.        Expires 25 October 2025                [Page 5]
+Pignataro, et al.        Expires 3 November 2025                [Page 5]
 
-Internet-Draft     Sustainability Arch Considerations         April 2025
+Internet-Draft     Sustainability Arch Considerations           May 2025
 
 
 2.3.1.  Redundancy and Sustainability
@@ -333,9 +333,9 @@ Internet-Draft     Sustainability Arch Considerations         April 2025
 
 
 
-Pignataro, et al.        Expires 25 October 2025                [Page 6]
+Pignataro, et al.        Expires 3 November 2025                [Page 6]
 
-Internet-Draft     Sustainability Arch Considerations         April 2025
+Internet-Draft     Sustainability Arch Considerations           May 2025
 
 
    goals.  For example, in order to ensure minimal latency, a network
@@ -389,9 +389,9 @@ Internet-Draft     Sustainability Arch Considerations         April 2025
 
 
 
-Pignataro, et al.        Expires 25 October 2025                [Page 7]
+Pignataro, et al.        Expires 3 November 2025                [Page 7]
 
-Internet-Draft     Sustainability Arch Considerations         April 2025
+Internet-Draft     Sustainability Arch Considerations           May 2025
 
 
       Also referred to as Allocational models, start by allocating or
@@ -445,9 +445,9 @@ Internet-Draft     Sustainability Arch Considerations         April 2025
 
 
 
-Pignataro, et al.        Expires 25 October 2025                [Page 8]
+Pignataro, et al.        Expires 3 November 2025                [Page 8]
 
-Internet-Draft     Sustainability Arch Considerations         April 2025
+Internet-Draft     Sustainability Arch Considerations           May 2025
 
 
    Dimensioning:
@@ -484,27 +484,90 @@ Internet-Draft     Sustainability Arch Considerations         April 2025
       resource discovery, reprovisioning, or reconvergence of management
       state.
 
+   Policy-Driven Sustainability Enforcement:
+      Network management systems can play a pivotal role in enforcing
+      explicit sustainability policies, much like how QoS, security, or
+      routing policies are enforced today.  These policies can express
+      environmental objectives such as limiting power consumption within
+      specific network domains, prioritizing traffic through paths
+      powered by renewable energy, or dynamically adjusting service
+      parameters to meet carbon footprint targets.  Such policy-driven
+      approaches allow sustainability intents to be specified at a high
+      level and translated into actionable configurations using
+      orchestration frameworks.  By embedding sustainability into policy
+      and intent-based networking models, operators gain precise control
+      over how environmental goals are operationalized and maintained
+      across diverse services and tenants.
+
+
+
+Pignataro, et al.        Expires 3 November 2025                [Page 9]
+
+Internet-Draft     Sustainability Arch Considerations           May 2025
+
+
+   Inter-Domain Sustainability Coordination:
+      Sustainability optimization must extend beyond individual
+      administrative domains to realize its full potential at Internet
+      scale.  Network management and orchestration systems can be
+      enhanced to support inter-domain coordination mechanisms that
+      allow operators to share sustainability-related metadata, such as
+      real-time carbon intensity of regional infrastructure, green
+      routing preferences, or energy availability status.  By enabling
+      cooperative decision-making, networks can collectively route
+      traffic in ways that reduce aggregate environmental impact.  This
+      requires the definition of interoperable data models, trust
+      frameworks, and privacy-preserving methods for sharing
+      sustainability metrics across organizational boundaries.  As
+      sustainability becomes a global imperative, inter-domain
+      orchestration will be essential to align local optimizations with
+      broader planetary goals.
+
+      To enable end-to-end sustainability, environmental objectives must
+      persist across the full service path, including ingress, transit,
+      and egress domains.  This requires a mechanism for expressing
+      sustainability intents (e.g., “carbon-sensitive” or “low-energy”)
+      at the service origin and ensuring they are respected downstream.
+      These intents may influence route selection, resource allocation,
+      and power state decisions in intermediate networks.  Failure to
+      propagate such goals may result in sustainability regressions that
+      cancel out upstream efforts.
+
+      Achieving this coordination demands standardized sustainability
+      telemetry formats and semantic models.  Exchanged data may include
+      per-domain carbon intensity, real-time energy sourcing, or
+      equipment-level energy efficiency indicators.  Agreement on common
+      ontologies and encoding formats will be essential to ensure
+      compatibility across vendor and operator implementations.
+
+      Beyond metrics, cooperative orchestration protocols will be needed
+      to act on this shared information.  For example, inter-domain
+      green routing agreements may optimize for end-to-end energy
+      profiles in addition to latency or cost.  Sustainability-aware
+      SLAs could encode carbon or energy constraints alongside
+      traditional service guarantees.  Trust boundaries, policy
+      asymmetries, and privacy concerns may necessitate abstraction
+      layers, optional disclosure levels, or brokered negotiation
+      intermediaries.
+
    In addition to those aspects, perhaps the most important role of
    network management is to provide network operators with the necessary
    visibility into how and where power is used in their network.  This
    is required in order to assess where the network stands in terms of
+
+
+
+Pignataro, et al.        Expires 3 November 2025               [Page 10]
+
+Internet-Draft     Sustainability Arch Considerations           May 2025
+
+
    sustainability.  It also allows to track progress over time, compare
    different alternatives for their effectiveness, and generally to
    facilitate network sustainability optimization.  Providing this
    visibility requires the definition of metrics and corresponding
    instrumentation of the network so that those metrics can be
    monitored, assessed, compared, and improved.
-
-
-
-
-
-
-
-Pignataro, et al.        Expires 25 October 2025                [Page 9]
-
-Internet-Draft     Sustainability Arch Considerations         April 2025
-
 
 3.  Sustainability Requirements and Phases
 
@@ -540,6 +603,21 @@ Internet-Draft     Sustainability Arch Considerations         April 2025
    to work on standard telemetry for collecting these metrics so that
    interoperability can be achieved in multi-vendor networks.
 
+
+
+
+
+
+
+
+
+
+
+Pignataro, et al.        Expires 3 November 2025               [Page 11]
+
+Internet-Draft     Sustainability Arch Considerations           May 2025
+
+
 3.2.  Phase 2: Insights and Recommendations
 
    Once the metrics have been collected, categorized, and aggregated in
@@ -554,14 +632,6 @@ Internet-Draft     Sustainability Arch Considerations         April 2025
    identifying sources of environmental impact and address any potential
    issues through operational changes, creation of best-practices, and
    changes towards a greener, more environmentally friendly equipment,
-
-
-
-Pignataro, et al.        Expires 25 October 2025               [Page 10]
-
-Internet-Draft     Sustainability Arch Considerations         April 2025
-
-
    software, platforms, applications, and protocols.
 
 3.3.  Phase 3: Self-optimization and Automation
@@ -572,14 +642,14 @@ Internet-Draft     Sustainability Arch Considerations         April 2025
    impractical in many levels for an operator to be looking at a
    dashboard monitoring usage and making changes in real-time 24x7).
    There is a need to provision some amount of self-awareness into the
-   network itself, at various layers, so that it can recognize
-   opportunities for improvement and make those changes and measure the
-   effects by closing the loop.  The goals of the consumers can be
-   stated in a declarative fashion, and the networks can continually use
-   mechanisms such as machine learning (ML), deep learning (DL), and
-   artificial intelligence (AI) with an additional goal to optimize for
-   improvements in the environmental impact.  These include, for
-   example:
+   network itself, at various layers, so that it can identify
+   opportunities for improvement, implement the necessary changes, and
+   measure the effects to complete the feedback loop.  The goals of the
+   consumers can be stated declaratively, and the networks can
+   continually use mechanisms such as machine learning (ML), deep
+   learning (DL), and artificial intelligence (AI) with an additional
+   goal to optimize for improvements in the environmental impact.  These
+   include, for example:
 
    *  Discovery and advertisement of networking characteristics that
       have either direct or indirect environmental impact,
@@ -597,6 +667,13 @@ Internet-Draft     Sustainability Arch Considerations         April 2025
    1, 2, and 3 are completed for an interation, there will be an added
    awareness of what (else) to collect back to phase 1.
 
+
+
+Pignataro, et al.        Expires 3 November 2025               [Page 12]
+
+Internet-Draft     Sustainability Arch Considerations           May 2025
+
+
    Further, sustainability-aware self-optimization is something to
    explore in Autonomic Networking.
 
@@ -609,14 +686,6 @@ Internet-Draft     Sustainability Arch Considerations         April 2025
       The creation of sustainability features for an element or a system
       should not weaken or compromise their security posture, nor should
       it increase the surface of attack or create attack vectors.
-
-
-
-
-Pignataro, et al.        Expires 25 October 2025               [Page 11]
-
-Internet-Draft     Sustainability Arch Considerations         April 2025
-
 
       -  Sustainability metrics and data models ought to describe how to
          secure the sustainability data exposed and surfaced through
@@ -652,6 +721,15 @@ Internet-Draft     Sustainability Arch Considerations         April 2025
 
 6.  Informative References
 
+
+
+
+
+Pignataro, et al.        Expires 3 November 2025               [Page 13]
+
+Internet-Draft     Sustainability Arch Considerations           May 2025
+
+
    [Doughnut] Wikipedia, "Doughnut (economic model)", 13 October 2023,
               <https://en.wikipedia.org/wiki/Doughnut_(economic_model)>.
 
@@ -666,14 +744,6 @@ Internet-Draft     Sustainability Arch Considerations         April 2025
    [I-D.irtf-nmrg-green-ps]
               Clemm, A., Pignataro, C., Westphal, C., Ciavaglia, L.,
               Tantsura, J., and M. Odini, "Challenges and Opportunities
-
-
-
-Pignataro, et al.        Expires 25 October 2025               [Page 12]
-
-Internet-Draft     Sustainability Arch Considerations         April 2025
-
-
               in Management for Green Networking", Work in Progress,
               Internet-Draft, draft-irtf-nmrg-green-ps-06, 15 March
               2025, <https://datatracker.ietf.org/doc/html/draft-irtf-
@@ -706,6 +776,16 @@ Authors' Addresses
    Email: cpignata@gmail.com, carlos@bluefern.consulting
 
 
+
+
+
+
+
+Pignataro, et al.        Expires 3 November 2025               [Page 14]
+
+Internet-Draft     Sustainability Arch Considerations           May 2025
+
+
    Ali Rezaki
    Nokia
    Germany
@@ -723,13 +803,6 @@ Authors' Addresses
    Email: jari.arkko@ericsson.com
 
 
-
-
-Pignataro, et al.        Expires 25 October 2025               [Page 13]
-
-Internet-Draft     Sustainability Arch Considerations         April 2025
-
-
    Alexander Clemm
    Sympotech
    United States of America
@@ -742,6 +815,10 @@ Internet-Draft     Sustainability Arch Considerations         April 2025
    Email: helbakoury@gmail.com
 
 
+   Shailesh Prabhu
+   Nokia
+   India
+   Email: shailesh.prabhu@nokia.com
 
 
 
@@ -760,25 +837,4 @@ Internet-Draft     Sustainability Arch Considerations         April 2025
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Pignataro, et al.        Expires 25 October 2025               [Page 14]
+Pignataro, et al.        Expires 3 November 2025               [Page 15]

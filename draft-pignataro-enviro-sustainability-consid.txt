@@ -5,14 +5,16 @@
 Network Working Group                                  C. Pignataro, Ed.
 Internet-Draft                                      Blue Fern Consulting
 Intended status: Best Current Practice                         A. Rezaki
-Expires: 25 October 2025                                           Nokia
+Expires: 3 November 2025                                           Nokia
                                                                 J. Arkko
                                                                 Ericsson
                                                                 A. Clemm
                                                                Futurewei
                                                             H. ElBakoury
                                                   Independent Consultant
-                                                           23 April 2025
+                                                               S. Prabhu
+                                                                   Nokia
+                                                              2 May 2025
 
 
 Sustainability Considerations for Networking Protocols and Applications
@@ -45,17 +47,15 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 25 October 2025.
+   This Internet-Draft will expire on 3 November 2025.
 
 
 
 
 
-
-
-Pignataro, et al.        Expires 25 October 2025                [Page 1]
+Pignataro, et al.        Expires 3 November 2025                [Page 1]
 
-Internet-Draft        Sustainability Considerations           April 2025
+Internet-Draft        Sustainability Considerations             May 2025
 
 
 Copyright Notice
@@ -83,8 +83,8 @@ Table of Contents
      4.1.  Call to Action  . . . . . . . . . . . . . . . . . . . . .   7
    5.  Security Considerations . . . . . . . . . . . . . . . . . . .   8
    6.  Acknowledgements  . . . . . . . . . . . . . . . . . . . . . .   8
-   7.  Informative References  . . . . . . . . . . . . . . . . . . .   8
-   Authors' Addresses  . . . . . . . . . . . . . . . . . . . . . . .   8
+   7.  Informative References  . . . . . . . . . . . . . . . . . . .   9
+   Authors' Addresses  . . . . . . . . . . . . . . . . . . . . . . .   9
 
 1.  Introduction
 
@@ -109,9 +109,9 @@ Table of Contents
 
 
 
-Pignataro, et al.        Expires 25 October 2025                [Page 2]
+Pignataro, et al.        Expires 3 November 2025                [Page 2]
 
-Internet-Draft        Sustainability Considerations           April 2025
+Internet-Draft        Sustainability Considerations             May 2025
 
 
 2.  Implications to the IETF
@@ -165,9 +165,9 @@ Internet-Draft        Sustainability Considerations           April 2025
 
 
 
-Pignataro, et al.        Expires 25 October 2025                [Page 3]
+Pignataro, et al.        Expires 3 November 2025                [Page 3]
 
-Internet-Draft        Sustainability Considerations           April 2025
+Internet-Draft        Sustainability Considerations             May 2025
 
 
        b.2.  Managed Elements:
@@ -221,9 +221,9 @@ Internet-Draft        Sustainability Considerations           April 2025
 
 
 
-Pignataro, et al.        Expires 25 October 2025                [Page 4]
+Pignataro, et al.        Expires 3 November 2025                [Page 4]
 
-Internet-Draft        Sustainability Considerations           April 2025
+Internet-Draft        Sustainability Considerations             May 2025
 
 
              as the volume does not get to the point where additional
@@ -277,9 +277,9 @@ Internet-Draft        Sustainability Considerations           April 2025
 
 
 
-Pignataro, et al.        Expires 25 October 2025                [Page 5]
+Pignataro, et al.        Expires 3 November 2025                [Page 5]
 
-Internet-Draft        Sustainability Considerations           April 2025
+Internet-Draft        Sustainability Considerations             May 2025
 
 
        d.1.  Consider Carbon Intensity (CI) / Emission Factor (EF) as an
@@ -333,9 +333,9 @@ Internet-Draft        Sustainability Considerations           April 2025
 
 
 
-Pignataro, et al.        Expires 25 October 2025                [Page 6]
+Pignataro, et al.        Expires 3 November 2025                [Page 6]
 
-Internet-Draft        Sustainability Considerations           April 2025
+Internet-Draft        Sustainability Considerations             May 2025
 
 
              network infrastructure, reducing the frequency of hardware
@@ -389,9 +389,9 @@ Internet-Draft        Sustainability Considerations           April 2025
 
 
 
-Pignataro, et al.        Expires 25 October 2025                [Page 7]
+Pignataro, et al.        Expires 3 November 2025                [Page 7]
 
-Internet-Draft        Sustainability Considerations           April 2025
+Internet-Draft        Sustainability Considerations             May 2025
 
 
    3.  consider, qualify, quantify, and explain the specific guidelines
@@ -402,13 +402,53 @@ Internet-Draft        Sustainability Considerations           April 2025
 
    Sustainable practices offer many environmental, economic, and social
    benefits, and security is a route to sustainability rather than a
-   hurdle to clear.
+   hurdle to clear.  However, incorporating sustainability into network
+   protocols and systems introduces new dimensions of trust.  Many
+   sustainability-related decisions may rely on external or distributed
+   data sources, such as carbon intensity feeds, energy consumption
+   telemetry, or environmental metrics shared between operators or
+   facilities.  It is important to consider the authenticity, integrity,
+   and provenance of this data, especially when such information is used
+   to trigger automated changes in network behavior.
+
+   Protocols and systems should therefore support mechanisms to verify
+   the origin and integrity of sustainability data received from
+   external parties.  For example, carbon intensity signals could be
+   signed or fetched over authenticated and encrypted channels.  Data
+   from managed network elements (e.g., smart power supplies, cooling
+   systems) should be exposed through secure interfaces with appropriate
+   access control and auditability.  Where distributed coordination is
+   involved, such as in multi-domain sustainability-aware routing, there
+   is risk of misinformation, either accidental or malicious, impacting
+   global optimization decisions.
+
+   Moreover, sustainability-related telemetry may reveal information
+   about network usage patterns, equipment lifecycle stages, or
+   infrastructure sourcing.  Care must be taken to ensure that such
+   disclosures do not leak sensitive operational, competitive, or
+   geographical data.  Implementations should consider privacy-
+   preserving techniques, such as aggregation, obfuscation, or
+   differential privacy, especially in shared or public reporting
+   contexts.
+
+   Security in the sustainability context is not only about protecting
+   the network from external threats, but also about ensuring
+   trustworthy, private, and verifiable environmental data exchange.
+   Without appropriate security, sustainability efforts may be
+   undermined by unreliable data, misreporting, or abuse.
 
 6.  Acknowledgements
 
    This document is created greatly leveraging ideas and text from
    [I-D.cparsk-eimpact-sustainability-considerations], and consequently
    acknowledges all the many contributions that improved it.
+
+
+
+Pignataro, et al.        Expires 3 November 2025                [Page 8]
+
+Internet-Draft        Sustainability Considerations             May 2025
+
 
 7.  Informative References
 
@@ -442,14 +482,6 @@ Authors' Addresses
    Email: ali.rezaki@nokia.com
 
 
-
-
-
-Pignataro, et al.        Expires 25 October 2025                [Page 8]
-
-Internet-Draft        Sustainability Considerations           April 2025
-
-
    Jari Arkko
    Ericsson
    Email: jari.arkko@ericsson.com
@@ -466,9 +498,21 @@ Internet-Draft        Sustainability Considerations           April 2025
    Hesham ElBakoury
    Independent Consultant
    United States of America
+
+
+
+Pignataro, et al.        Expires 3 November 2025                [Page 9]
+
+Internet-Draft        Sustainability Considerations             May 2025
+
+
    Email: helbakoury@gmail.com
 
 
+   Shailesh Prabhu
+   Nokia
+   India
+   Email: shailesh.prabhu@nokia.com
 
 
 
@@ -501,4 +545,16 @@ Internet-Draft        Sustainability Considerations           April 2025
 
 
 
-Pignataro, et al.        Expires 25 October 2025                [Page 9]
+
+
+
+
+
+
+
+
+
+
+
+
+Pignataro, et al.        Expires 3 November 2025               [Page 10]

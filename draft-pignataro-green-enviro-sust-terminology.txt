@@ -5,12 +5,12 @@
 Network Working Group                                  C. Pignataro, Ed.
 Internet-Draft                                      Blue Fern Consulting
 Intended status: Informational                                 A. Rezaki
-Expires: 25 October 2025                                           Nokia
+Expires: 3 November 2025                                           Nokia
                                                             H. ElBakoury
                                                   Independent Consultant
                                                                S. Prabhu
                                                                    Nokia
-                                                           23 April 2025
+                                                              2 May 2025
 
 
          Environmental Sustainability Terminology and Concepts
@@ -38,7 +38,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 25 October 2025.
+   This Internet-Draft will expire on 3 November 2025.
 
 Copyright Notice
 
@@ -53,9 +53,9 @@ Copyright Notice
 
 
 
-Pignataro, et al.        Expires 25 October 2025                [Page 1]
+Pignataro, et al.        Expires 3 November 2025                [Page 1]
 
-Internet-Draft     Environmental Sustainability Terms         April 2025
+Internet-Draft     Environmental Sustainability Terms           May 2025
 
 
    extracted from this document must include Revised BSD License text as
@@ -109,9 +109,9 @@ Table of Contents
 
 
 
-Pignataro, et al.        Expires 25 October 2025                [Page 2]
+Pignataro, et al.        Expires 3 November 2025                [Page 2]
 
-Internet-Draft     Environmental Sustainability Terms         April 2025
+Internet-Draft     Environmental Sustainability Terms           May 2025
 
 
    This section defines sustainability-specific terms as they are used
@@ -165,9 +165,9 @@ Internet-Draft     Environmental Sustainability Terms         April 2025
 
 
 
-Pignataro, et al.        Expires 25 October 2025                [Page 3]
+Pignataro, et al.        Expires 3 November 2025                [Page 3]
 
-Internet-Draft     Environmental Sustainability Terms         April 2025
+Internet-Draft     Environmental Sustainability Terms           May 2025
 
 
       is being mindful of the carbon intensity of the electricity being
@@ -221,9 +221,9 @@ Internet-Draft     Environmental Sustainability Terms         April 2025
 
 
 
-Pignataro, et al.        Expires 25 October 2025                [Page 4]
+Pignataro, et al.        Expires 3 November 2025                [Page 4]
 
-Internet-Draft     Environmental Sustainability Terms         April 2025
+Internet-Draft     Environmental Sustainability Terms           May 2025
 
 
       limit temperature increases to a threshold determined by the Paris
@@ -277,9 +277,9 @@ Internet-Draft     Environmental Sustainability Terms         April 2025
 
 
 
-Pignataro, et al.        Expires 25 October 2025                [Page 5]
+Pignataro, et al.        Expires 3 November 2025                [Page 5]
 
-Internet-Draft     Environmental Sustainability Terms         April 2025
+Internet-Draft     Environmental Sustainability Terms           May 2025
 
 
       demonstrates how to conceptualize and position boundaries in our
@@ -333,9 +333,9 @@ Internet-Draft     Environmental Sustainability Terms         April 2025
 
 
 
-Pignataro, et al.        Expires 25 October 2025                [Page 6]
+Pignataro, et al.        Expires 3 November 2025                [Page 6]
 
-Internet-Draft     Environmental Sustainability Terms         April 2025
+Internet-Draft     Environmental Sustainability Terms           May 2025
 
 
       are essential to demonstrating EE improvements.  An example of a
@@ -389,9 +389,9 @@ Internet-Draft     Environmental Sustainability Terms         April 2025
 
 
 
-Pignataro, et al.        Expires 25 October 2025                [Page 7]
+Pignataro, et al.        Expires 3 November 2025                [Page 7]
 
-Internet-Draft     Environmental Sustainability Terms         April 2025
+Internet-Draft     Environmental Sustainability Terms           May 2025
 
 
    GHGs:
@@ -445,9 +445,9 @@ Internet-Draft     Environmental Sustainability Terms         April 2025
 
 
 
-Pignataro, et al.        Expires 25 October 2025                [Page 8]
+Pignataro, et al.        Expires 3 November 2025                [Page 8]
 
-Internet-Draft     Environmental Sustainability Terms         April 2025
+Internet-Draft     Environmental Sustainability Terms           May 2025
 
 
       *  Scope 3 Emissions: Other indirect GHG emissions - Scope 3 is an
@@ -501,9 +501,9 @@ Internet-Draft     Environmental Sustainability Terms         April 2025
 
 
 
-Pignataro, et al.        Expires 25 October 2025                [Page 9]
+Pignataro, et al.        Expires 3 November 2025                [Page 9]
 
-Internet-Draft     Environmental Sustainability Terms         April 2025
+Internet-Draft     Environmental Sustainability Terms           May 2025
 
 
       footprint impact.  They are to be calculated and reported
@@ -557,9 +557,9 @@ Internet-Draft     Environmental Sustainability Terms         April 2025
 
 
 
-Pignataro, et al.        Expires 25 October 2025               [Page 10]
+Pignataro, et al.        Expires 3 November 2025               [Page 10]
 
-Internet-Draft     Environmental Sustainability Terms         April 2025
+Internet-Draft     Environmental Sustainability Terms           May 2025
 
 
       carbon offset.  For example, many organizations and countries have
@@ -613,9 +613,9 @@ Internet-Draft     Environmental Sustainability Terms         April 2025
 
 
 
-Pignataro, et al.        Expires 25 October 2025               [Page 11]
+Pignataro, et al.        Expires 3 November 2025               [Page 11]
 
-Internet-Draft     Environmental Sustainability Terms         April 2025
+Internet-Draft     Environmental Sustainability Terms           May 2025
 
 
       return even increasing the overall resource use.  This is known as
@@ -669,9 +669,9 @@ Internet-Draft     Environmental Sustainability Terms         April 2025
 
 
 
-Pignataro, et al.        Expires 25 October 2025               [Page 12]
+Pignataro, et al.        Expires 3 November 2025               [Page 12]
 
-Internet-Draft     Environmental Sustainability Terms         April 2025
+Internet-Draft     Environmental Sustainability Terms           May 2025
 
 
       Goal 11   Sustainable cities and communities
@@ -725,9 +725,9 @@ Internet-Draft     Environmental Sustainability Terms         April 2025
 
 
 
-Pignataro, et al.        Expires 25 October 2025               [Page 13]
+Pignataro, et al.        Expires 3 November 2025               [Page 13]
 
-Internet-Draft     Environmental Sustainability Terms         April 2025
+Internet-Draft     Environmental Sustainability Terms           May 2025
 
 
    routes chosen.  What this implies is that we are responsible for the
@@ -781,9 +781,9 @@ Internet-Draft     Environmental Sustainability Terms         April 2025
 
 
 
-Pignataro, et al.        Expires 25 October 2025               [Page 14]
+Pignataro, et al.        Expires 3 November 2025               [Page 14]
 
-Internet-Draft     Environmental Sustainability Terms         April 2025
+Internet-Draft     Environmental Sustainability Terms           May 2025
 
 
    incomes, housing, gender equality, social equity, inclusiveness,
@@ -837,9 +837,9 @@ Internet-Draft     Environmental Sustainability Terms         April 2025
 
 
 
-Pignataro, et al.        Expires 25 October 2025               [Page 15]
+Pignataro, et al.        Expires 3 November 2025               [Page 15]
 
-Internet-Draft     Environmental Sustainability Terms         April 2025
+Internet-Draft     Environmental Sustainability Terms           May 2025
 
 
    The following are some examples of internetworking for
@@ -893,9 +893,9 @@ Internet-Draft     Environmental Sustainability Terms         April 2025
 
 
 
-Pignataro, et al.        Expires 25 October 2025               [Page 16]
+Pignataro, et al.        Expires 3 November 2025               [Page 16]
 
-Internet-Draft     Environmental Sustainability Terms         April 2025
+Internet-Draft     Environmental Sustainability Terms           May 2025
 
 
       sustainability.  Special requirements for applications in this
@@ -949,9 +949,9 @@ Internet-Draft     Environmental Sustainability Terms         April 2025
 
 
 
-Pignataro, et al.        Expires 25 October 2025               [Page 17]
+Pignataro, et al.        Expires 3 November 2025               [Page 17]
 
-Internet-Draft     Environmental Sustainability Terms         April 2025
+Internet-Draft     Environmental Sustainability Terms           May 2025
 
 
    or aspects such as reduced energy consumption and increased energy
@@ -1005,9 +1005,9 @@ Internet-Draft     Environmental Sustainability Terms         April 2025
 
 
 
-Pignataro, et al.        Expires 25 October 2025               [Page 18]
+Pignataro, et al.        Expires 3 November 2025               [Page 18]
 
-Internet-Draft     Environmental Sustainability Terms         April 2025
+Internet-Draft     Environmental Sustainability Terms           May 2025
 
 
    [CUE]      Belady, C., Azevedo, D., Patterson, M., Pouchet, J., and
@@ -1061,9 +1061,9 @@ Internet-Draft     Environmental Sustainability Terms         April 2025
 
 
 
-Pignataro, et al.        Expires 25 October 2025               [Page 19]
+Pignataro, et al.        Expires 3 November 2025               [Page 19]
 
-Internet-Draft     Environmental Sustainability Terms         April 2025
+Internet-Draft     Environmental Sustainability Terms           May 2025
 
 
    [ITU-ICT-SDG]
@@ -1117,9 +1117,9 @@ Internet-Draft     Environmental Sustainability Terms         April 2025
 
 
 
-Pignataro, et al.        Expires 25 October 2025               [Page 20]
+Pignataro, et al.        Expires 3 November 2025               [Page 20]
 
-Internet-Draft     Environmental Sustainability Terms         April 2025
+Internet-Draft     Environmental Sustainability Terms           May 2025
 
 
 Authors' Addresses
@@ -1173,4 +1173,4 @@ Authors' Addresses
 
 
 
-Pignataro, et al.        Expires 25 October 2025               [Page 21]
+Pignataro, et al.        Expires 3 November 2025               [Page 21]
