@@ -1,0 +1,1176 @@
+
+
+
+
+Network Working Group                                  C. Pignataro, Ed.
+Internet-Draft                                      Blue Fern Consulting
+Intended status: Informational                                 A. Rezaki
+Expires: 13 November 2025                                          Nokia
+                                                            H. ElBakoury
+                                                  Independent Consultant
+                                                               S. Prabhu
+                                                                   Nokia
+                                                             12 May 2025
+
+
+         Environmental Sustainability Terminology and Concepts
+            draft-pignataro-green-enviro-sust-terminology-02
+
+Abstract
+
+   This document defines a set of sustainability-related terms and
+   concepts to be used while describing and evaluating the negative and
+   positive environmental sustainability impacts and implications of
+   Internet technologies.
+
+Status of This Memo
+
+   This Internet-Draft is submitted in full conformance with the
+   provisions of BCP 78 and BCP 79.
+
+   Internet-Drafts are working documents of the Internet Engineering
+   Task Force (IETF).  Note that other groups may also distribute
+   working documents as Internet-Drafts.  The list of current Internet-
+   Drafts is at https://datatracker.ietf.org/drafts/current/.
+
+   Internet-Drafts are draft documents valid for a maximum of six months
+   and may be updated, replaced, or obsoleted by other documents at any
+   time.  It is inappropriate to use Internet-Drafts as reference
+   material or to cite them other than as "work in progress."
+
+   This Internet-Draft will expire on 13 November 2025.
+
+Copyright Notice
+
+   Copyright (c) 2025 IETF Trust and the persons identified as the
+   document authors.  All rights reserved.
+
+   This document is subject to BCP 78 and the IETF Trust's Legal
+   Provisions Relating to IETF Documents (https://trustee.ietf.org/
+   license-info) in effect on the date of publication of this document.
+   Please review these documents carefully, as they describe your rights
+   and restrictions with respect to this document.  Code Components
+
+
+
+Pignataro, et al.       Expires 13 November 2025                [Page 1]
+
+Internet-Draft     Environmental Sustainability Terms           May 2025
+
+
+   extracted from this document must include Revised BSD License text as
+   described in Section 4.e of the Trust Legal Provisions and are
+   provided without warranty as described in the Revised BSD License.
+
+Table of Contents
+
+   1.  Introduction  . . . . . . . . . . . . . . . . . . . . . . . .   2
+   2.  Definition of Terms . . . . . . . . . . . . . . . . . . . . .   2
+   3.  Environmental Sustainability Concepts . . . . . . . . . . . .  13
+     3.1.  'Sustainable X' versus 'X for Sustainability' . . . . . .  13
+       3.1.1.  Sustainable Internetworking . . . . . . . . . . . . .  14
+       3.1.2.  Internetworking for Sustainability  . . . . . . . . .  15
+     3.2.  Key Values and Key Value Indicators . . . . . . . . . . .  17
+       3.2.1.  Key Value Enablers  . . . . . . . . . . . . . . . . .  18
+   4.  Security Considerations . . . . . . . . . . . . . . . . . . .  18
+   5.  Acknowledgements  . . . . . . . . . . . . . . . . . . . . . .  18
+   6.  Informative References  . . . . . . . . . . . . . . . . . . .  18
+   Authors' Addresses  . . . . . . . . . . . . . . . . . . . . . . .  21
+
+1.  Introduction
+
+   Over the past decade, there has been increased awareness of the
+   environmental impact produced by the widespread adoption of the
+   Internet and internetworking technologies.  The impact of Internet
+   technologies has been overwhelmingly positive over the past years
+   (e.g., providing alternatives to travel, enabling remote and hybrid
+   work, enabling technology-based endangered species conservation,
+   etc.), and there is still room for improvement.
+
+   This document proposes some common terminology for discussing
+   environmental sustainability impact of Internet technologies, and
+   presents environmental sustainability-related concepts to network and
+   protocol designers and implementors.
+
+2.  Definition of Terms
+
+   Given that the term 'considerations' is well known within the IETF
+   community, it is fair to start by defining 'sustainability'.  The
+   1983 UN Commission on Environment and Development had important
+   influence on the current use of the term.  The commission's 1987
+   report [UNGA42] defines it as development that "meets the needs of
+   the present without compromising the ability of future generations to
+   meet their own needs".  This in turn involves balancing economic,
+   social, and environmental factors.
+
+
+
+
+
+
+
+Pignataro, et al.       Expires 13 November 2025                [Page 2]
+
+Internet-Draft     Environmental Sustainability Terms           May 2025
+
+
+   This section defines sustainability-specific terms as they are used
+   in the document, and as they pertain to environmental impacts.  The
+   goal is to provide a common lexicon for sustainability considerations
+   among network equipment vendors, operators, designers, and
+   architects.
+
+   Notwithstanding the most comprehensive set of definitions of relevant
+   terms readers can find at [IPCC], this section contributes the
+   application and exemplification of the terminology to the
+   internetworking domain and field.  The terms are alphabetically
+   organized.
+
+   Appropriate technology:
+      Appropriate technology is a movement (and its manifestations)
+      encompassing technological choice and application that is small-
+      scale, affordable by locals, decentralized, labor intensive,
+      energy efficient, environmentally sustainable, and locally
+      autonomous.  Though the original name for the concept now known as
+      appropriate technology, "intermediate technology" is now often
+      considered a subset of appropriate technology that focuses on
+      technology that is more productive than "inefficient" traditional
+      technologies, but less costly than the technology of
+      industrialized societies.  Globally impactful technology is to be
+      adaptable to local contexts it is used in.  Regarding
+      internetworking, there could be linkages to centralization /
+      decentralization challenges, as well as maintainability &
+      deployability aspects.  Considering the diversity of local
+      contexts, from developed countries with remote/rural coverage/
+      access issues, to developing countries with unstable electricity
+      grids as well as literacy and technology usability/accessibility
+      issues, internetworking technology needs to be designed, developed
+      and operated according to these local requirements, also
+      supporting small scale business models to make impact.
+
+   Biodiversity loss:
+      Biological diversity is a measure of the abundance and variety of
+      life on earth.  Biodiversity loss is the depletion of this
+      diversity due to human activity, notably through the destruction
+      of natural ecosystems and through the cascading effects of climate
+      change, materials extraction, waste disposal and pollution, among
+      other impacts, on the living world and species.
+
+   CO2e / CO2eq / CO2-eq:
+      Carbon dioxide equivalent, is the unit for measuring the climate
+      change impact of non-CO2 gases as compared to CO2, which is
+      selected as a benchmark.
+
+   Carbon awareness:
+
+
+
+Pignataro, et al.       Expires 13 November 2025                [Page 3]
+
+Internet-Draft     Environmental Sustainability Terms           May 2025
+
+
+      is being mindful of the carbon intensity of the electricity being
+      used and prioritizing the use of low carbon intensity electricity
+      in network set-up and operations.  As carbon intensity is location
+      and time dependent, carbon awareness requires dynamic monitoring
+      and response, such as carbon aware routing and networking.  This
+      is a form of "demand shaping" which aims to match the use of
+      energy with the supply of clean energy.
+
+   Carbon intensity (CI):
+      also referred to as emission intensity and emission factor, is a
+      measure of the carbon-equivalent emission of consumed electricity,
+      i.e., grams of carbon-equivalent per kilowatt-hour (gCO2e/kWh).
+      When the supplied energy mix is purely from renewable sources such
+      as sun and wind, carbon intensity is practically 0, when coal and
+      gas-powered electricity generation gets in the mix, carbon
+      intensity increases.  Carbon intensity can vary instantaneously or
+      predictably based on the time and location of electricity usage.
+      Prioritizing electricity usage when carbon intensity is low is a
+      target.
+
+   Carbon offset and credit:
+      is a reduction of GHGs from the atmosphere as compensation for
+      GHGs produced elsewhere, with credits being generated and used
+      accordingly.  This reduction in GHG emissions can be an increase
+      in carbon storage through land restauration, or an actual removal
+      of GHG.  For example, certified forestation projects that absorb
+      carbon dioxide produce carbon credits that an airline can use to
+      offset its GHG emissions by using (purchasing) these credits.
+      There are accredited carbon trading mechanisms to facilitate this
+      exchange.  This is generally regarded as a non-scalable solution
+      and activities such as the reduction of GHG emissions and the
+      shifting of electrical energy production to renewables are a
+      primary focus.
+
+   Circularity (circular economy):
+      is a model or system where material resources and products are
+      kept in use for as long as possible through long life cycles,
+      reuse, repair, refurbishing and recycling, thereby reducing
+      material use, waste, and pollution as well as biodiversity and
+      geodiversity loss.  Keeping internetworking equipment in longer
+      use through modularity, serviceability, upgradeability, and
+      maintainability are strategies to improve circularity.
+
+   Climate change (climate emergency, global warming):
+      can be summarized as the increase in the global average
+      temperatures and its destructive impact on life on Earth.  The
+      climate emergency refers to the ongoing and projected impacts of
+      rising global temperatures and the narrow time window we have to
+
+
+
+Pignataro, et al.       Expires 13 November 2025                [Page 4]
+
+Internet-Draft     Environmental Sustainability Terms           May 2025
+
+
+      limit temperature increases to a threshold determined by the Paris
+      Climate Agreement (2015) to avoid the permanent destabilization of
+      Earth life-support systems.
+
+   Climate change adaptation:
+      are the measures we can take to adjust ourselves to the already
+      happening and projected future adverse effects of climate change.
+      This notably includes raising the resilience of internetworking
+      solutions to higher operating temperatures and other impacts of
+      climate change, as well as the use of internetworking technology
+      to increase the resilience of societies and nature itself.
+
+   Climate change mitigation:
+      encompasses all measures to reduce the impact of climate change.
+      More specifically, any measures that reduce the amount of GHGs in
+      the atmosphere can be considered as climate change mitigation
+      through reduced inflow of GHGs into the atmosphere (such as
+      burning of fossil fuels) or increasing the impact of carbon sinks
+      such as forests and oceans.  Reducing the carbon footprint of
+      internetworking and increasing its carbon handprint by helping
+      other sectors to decarbonize are mitigation efforts.
+
+   CUE:
+      Carbon usage effectiveness [CUE] is a metric that helps determine
+      the amount of greenhouse gas (GHG) emissions produced per unit of
+      IT energy consumed within a data center.  It provides an effective
+      way to measure operational carbon footprint and thus the
+      environmental impact of data center operations.  The CUE is the
+      ratio of the total CO2 emissions caused by total data center
+      energy consumption, divided by the energy consumption of IT
+      equipment.  To calculate CUE when using electricity from the grid,
+      carbon emissions can be based on published data.  See also "PUE".
+
+   Demand Response:
+      is a strategy that dynamically adjusts electricity consumption in
+      response to grid conditions, helping to reduce reliance on high-
+      emission energy sources.  Demand Response mechanisms optimize
+      energy usage by shifting or reducing power demand during peak
+      periods, improving grid stability, enhancing energy efficiency,
+      and supporting sustainability goals.
+
+   Doughnut economics:
+      is a visual framework for sustainable development.  It attempts to
+      find a safe operational space within planetary boundaries and
+      complementary (yet seemingly opposing) social boundaries, thereby
+      meeting the needs of human societies without pushing earth
+      environmental boundaries to their tipping points [Doughnut].  The
+      significance of this model for interworking is that it
+
+
+
+Pignataro, et al.       Expires 13 November 2025                [Page 5]
+
+Internet-Draft     Environmental Sustainability Terms           May 2025
+
+
+      demonstrates how to conceptualize and position boundaries in our
+      designs that are seemingly opposing, to create a balanced
+      approach, for example between energy efficiency and performance or
+      resiliency and materials efficiency.  It is not one or the other,
+      but to find a space where both can be achieved without crossing
+      boundaries in respective domains.
+
+   Embodied emissions:
+      also referred to as embodied carbon and embedded carbon, refers to
+      the amount of GHG emissions associated with upstream phases - raw
+      material extraction, production, transportation (of materials and
+      of product), and manufacturing-stages of a product's lifecycle.
+      Some initiatives also consider disposal.
+
+   Embodied energy:
+      refers to the total amount of energy consumed across all upstream
+      stages of a product's lifecycle, including raw material
+      extraction, processing, manufacturing, and transportation of
+      materials and components.  Embodied energy does not account for
+      the operational energy consumed during the use-phase of the
+      product.  In the context of ICT, this includes the energy used in
+      producing semiconductors, assembling network equipment, and
+      transporting devices to deployment locations.  Understanding
+      embodied energy is essential for assessing the full lifecycle
+      sustainability of ICT systems and guiding circular design
+      strategies.
+
+   Energy, power, and their measurement:
+      In physics, energy is defined as the capacity or ability to do
+      work.  For a system to provide an output, the quantitative
+      property of energy is transferred to it.  The energy measurement
+      unit in the International System of Units (SI) is the joule (J).
+      Power is energy used per second, measured in the International
+      System of Units in watts (W), equivalent to the rate of one joule
+      per second (J/s).  In other words, energy is the integration of
+      power over time.  As such, Kilowatt-hour (kWh) is also a measure
+      of energy, equivalent to 1 kW of power maintained for 1 hour,
+      which is equal to 3.6 MJ (million joules).
+
+   Energy efficiency (EE):
+      increased energy efficiency can be summarized as doing the same
+      task with less energy use, that is, providing a useful output/
+      impact with as little energy as possible, eliminating energy
+      waste.  Switching to more efficient power supplies and silicon or
+      developing more efficient transmission or signal processing
+      algorithms improves EE.  Developing energy efficiency metrics for
+      internetworking and associated measurement methodologies and
+      conditions as well as consistently collecting this data over time
+
+
+
+Pignataro, et al.       Expires 13 November 2025                [Page 6]
+
+Internet-Draft     Environmental Sustainability Terms           May 2025
+
+
+      are essential to demonstrating EE improvements.  An example of a
+      common outcome-oriented metric is energy consumption per data
+      volume or traffic unit, in Wh/B [Telefonica]; this particular
+      metric has however also been criticized for being easy to
+      misinterpret, falsely indicating that systems are energy
+      proportional even when they are not (see "Energy
+      proportionality".)
+
+   Energy equity:
+      Energy equity aims to minimize the negative impacts of energy
+      systems and maximize the benefits for all energy users.
+      Historically, these impacts and benefits haven't been equitably
+      distributed.  Energy equity recognizes that disadvantaged
+      communities have been historically marginalized and overburdened
+      by pollution, underinvestment in clean energy infrastructure, and
+      lack of access to energy efficient housing and transportation.
+
+   Energy proportionality:
+      is the correlation between energy used and the associated useful
+      output.  For internetworking this is generally interpreted as the
+      proportionality of traffic or traffic throughput and energy used.
+      This concept is broadly applicable to networking infrastructure,
+      data center, and other communication architectures.  It is not a
+      given that there is a one-to-one correlation between traffic and
+      energy use, notably due to the materially significant idle power
+      use by devices, as well as the overall network capacity being
+      allocated to serve at times of highest traffic utilization.
+
+   Energy savings / conservation (ES):
+      is the avoidance of energy use, by eliminating a task altogether,
+      when possible.  Shutting down unused ports on networking equipment
+      is energy savings/conservation.
+
+   Footprint (environmental/ecological):
+      in general terms is the impact we have on the planet.  It can be
+      divided into subcategories such as carbon footprint, water
+      footprint, land footprint, biodiversity footprint, etc.  Related
+      to the climate emergency, we are mostly focused on our carbon
+      footprint, however, it has been shown that sub-categories of
+      footprint are not entirely independent of each other.  For
+      example, our carbon footprint has a proven impact on the climate
+      emergency through rising global temperatures, cascading
+      significant impact on forest cover in warming areas since tree
+      species adapted to certain climates vanish, thereby reducing
+      biodiversity in that region, in-return impacting the carbon sink
+      properties of the environment and exacerbating climate change.  A
+      holistic approach to our environmental footprint would therefore
+      provide the best opportunity to create impact.
+
+
+
+Pignataro, et al.       Expires 13 November 2025                [Page 7]
+
+Internet-Draft     Environmental Sustainability Terms           May 2025
+
+
+   GHGs:
+      Greenhouse gases are types of gases that trap heat from the sun in
+      earth's atmosphere, thereby increasing average global temperatures
+      and creating the climate emergency.  Carbon dioxide (CO2) is one
+      of the most common (and referenced) greenhouse gases.  Other GHGs
+      include methane (CH4), which is significantly more potent than
+      CO2, and sulfur hexafluoride (SF6), an artificial electrical
+      insulator with a warming effect tens of thousands of times greater
+      than CO2.
+
+   GHG Emissions Scopes:
+      According to the Greenhouse Gas (GHG) Protocol [GHG-Proto],
+      Chapter 4, the emissions scopes are defined as below:
+
+      *  Direct GHG emissions are emissions from sources that are owned
+         or controlled by the company.
+
+      *  Indirect GHG emissions are emissions that are a consequence of
+         the activities of the company but occur at sources owned or
+         controlled by another company.
+
+      The GHG protocol [GHG-Proto], Chapter 4, also includes the
+      following descriptions of emissions scopes for accounting and
+      reporting purposes:
+
+      *  Scope 1 Emissions: Direct GHG emissions - Direct GHG emissions
+         occur from sources that are owned or controlled by the company,
+         for example, emissions from combustion in owned or controlled
+         boilers, furnaces, vehicles, etc.; emissions from chemical
+         production in owned or controlled process equipment.
+
+      *  Scope 2 Emissions: Electricity indirect GHG emissions - Scope 2
+         accounts for GHG emissions from the generation of purchased
+         electricity consumed by the company.  Purchased electricity is
+         defined as electricity that is purchased or otherwise brought
+         into the organizational boundary of the company.  Scope 2
+         emissions physically occur at the facility where electricity is
+         generated.
+
+      *  Companies shall separately account for and report on scopes 1
+         and 2 at a minimum.
+
+
+
+
+
+
+
+
+
+
+Pignataro, et al.       Expires 13 November 2025                [Page 8]
+
+Internet-Draft     Environmental Sustainability Terms           May 2025
+
+
+      *  Scope 3 Emissions: Other indirect GHG emissions - Scope 3 is an
+         optional reporting category that allows for the treatment of
+         all other indirect emissions.  Scope 3 emissions are a
+         consequence of the activities of the company, but occur from
+         sources not owned or controlled by the company.  Some examples
+         of scope 3 activities are extraction and production of
+         purchased materials; transportation of purchased fuels; and use
+         of sold products and services.
+
+      In telecommunications networks, Scope 3 emissions include the use
+      phase of the sold products in operations, and is currently the
+      largest part by far, of the whole GHG emissions (Scopes 1, 2 and
+      3), depending on the carbon intensity of the energy supply in use.
+
+   GWP:
+      Global warming potential, is the potential impact of GHGs on
+      climate change, measured in CO2e.
+
+   Geodiversity:
+      is the variety of the nonliving parts of nature, that is, the
+      materials constituting Earth, including soils, water (rivers,
+      lakes, oceans), minerals, landforms and the associated processes
+      that form and change them.  The materials used in the production
+      of internetworking equipment as well as their manufacturing and
+      operational processes themselves, have impact (footprint) on
+      geodiversity.  Materials efficiency as well as circularity
+      improvements help mitigate this impact.
+
+   Green Software Engineering:
+      is a framework for designing, developing, and operating software
+      with a focus on energy efficiency, minimal resource consumption,
+      and sustainability principles.  It aims to reduce the
+      environmental impact of computing by optimizing algorithms,
+      improving hardware utilization, minimizing unnecessary
+      computations, and incorporating energy-aware development
+      practices.  Examples include efficient code execution, adaptive
+      workload scaling, and leveraging renewable-powered cloud
+      infrastructure.
+
+   Handprint (environmental/ecological):
+      is a concept developed in contrast to footprint, to quantify and
+      demonstrate the positive environmental/ecological impact of
+      technologies, products or organizations.  Through a LCA (life
+      cycle assessment) approach, the use of a technology or the
+      products and services of an organization would have both a
+      footprint and handprint usually denoted by the terms "X for
+      sustainability" (handprint) and "Sustainable X" (footprint).  What
+      is important is that handprint impact does not compensate for
+
+
+
+Pignataro, et al.       Expires 13 November 2025                [Page 9]
+
+Internet-Draft     Environmental Sustainability Terms           May 2025
+
+
+      footprint impact.  They are to be calculated and reported
+      independently; footprint to be minimized as much as possible, and
+      handprint maximized as much as possible, which are by definition
+      different activities anyway.  Otherwise, this might be construed
+      as "greenwashing".  A popular seesaw figure in common
+      sustainability literature depicting handprint and footprint
+      sitting on opposite ends of a seesaw, one going up while the other
+      is going down is a misguided representation.
+
+   LCA (Life Cycle Assessment):
+      is a comprehensive methodology to measure the environmental impact
+      of a product, service, or process over its complete lifecycle,
+      from the extraction and procurement of materials, through design,
+      manufacturing, distribution, deployment, operations (use),
+      maintenance/repair, decommissioning, refurbishment/reuse,
+      recycling and disposal (waste), considering the full upstream and
+      downstream supply chains as well.  It is an extremely complicated
+      process and there are multiple methods used worldwide, which might
+      not produce same/similar results.  LCA covers full footprint
+      aspects, not only covering carbon, but also materials and
+      biodiversity.  Many of the subtleties and nuances of the
+      measurement of GHG and environmental impacts stem from the very
+      important distinction between attributional and consequential
+      models.  Detailed definitions can be found at [UNEP-LCA].
+
+   LCA - Attributional Model:
+      Also referred to as Allocational models, start by allocating or
+      attributing quantities (e.g., GHG emissions) to entities (e.g., a
+      router, a building, a town), and performing comparisons between
+      the measurements (or estimates) of the quantity by the entities.
+
+   LCA - Consequential Model:
+      Perform the measurement of the quantity by establishing a baseline
+      scenario (e.g., before feature introduction) and a modified
+      scenario (e.g., after the feature introduction).
+
+   Materials efficiency and reuse:
+      is the concept of using less primary and (more) recycled materials
+      to provide the same output.  A networking equipment that provides
+      the same function with less aluminium used is more materials
+      efficient.  Reuse of materials in manufacturing, thereby reducing
+      primary materials extraction is a cornerstone of circularity,
+      reducing environmental footprint and promoting geodiversity.
+
+   Net-zero:
+      in general, is to bring down GHGs as close to zero as possible.
+      It is generally recognized that it may not be possible to get GHGs
+      to 0 in many contexts and the balance is said to be covered by
+
+
+
+Pignataro, et al.       Expires 13 November 2025               [Page 10]
+
+Internet-Draft     Environmental Sustainability Terms           May 2025
+
+
+      carbon offset.  For example, many organizations and countries have
+      net-zero targets by certain dates and typically what they mean is
+      that they will reduce their GHGs by more than 90% and the
+      remaining up to 10% will be offset.
+
+   Operational Emissions
+      refer to the greenhouse gas (GHG) emissions associated with the
+      active use phase of a product or system.  In the context of ICT
+      systems, operational emissions primarily stem from electricity
+      consumption required to power hardware such as servers, networking
+      equipment, cooling systems, and user devices during their
+      operation.  These emissions are influenced by the energy
+      efficiency of the systems, utilization patterns, and the carbon
+      intensity of the electricity used, which can vary based on
+      geographic location and time.  Unlike embodied emissions, which
+      are fixed at the point of manufacture and deployment, operational
+      emissions are continuous and dynamic, and can be optimized through
+      strategies such as energy-aware scheduling, carbon-aware routing,
+      and demand response.  Monitoring and reducing operational
+      emissions is a key focus area in sustainable ICT practices.
+
+   PUE:
+      Power usage effectiveness, is a data centre energy efficiency
+      metric.  The PUE is defined by dividing the total amount of power
+      entering a data center by the power used solely to run the IT
+      equipment within it.  PUE is expressed as a ratio, with the
+      overall power usage effectiveneess improving as the quotient
+      decreases towards one.  See also "CUE".
+
+   Planetary boundaries:
+      is a concept that defines 9 environmental boundaries that, if not
+      crossed, provides a safe space for humanity to live.  This was
+      developed and tracked by the Stockholm Resilience Centre
+      [Planet-B].  Their latest report indicates that 6 out of the 9
+      boundaries have already been crossed.  This translates to the
+      increased risk of irreversible environmental change, the so-called
+      tipping points.  Climate change is one of these boundaries,
+      represented as carbon dioxide concentration in the atmosphere (ppm
+      by volume) and others are biodiversity loss, land use, fresh
+      water, ocean acidification, chemical pollution, ozone depletion
+      (one boundary that has been successfully mitigated), atmospheric
+      aerosols and biogeochemical (nitrogen in the atmosphere and
+      phosphorus in oceans).
+
+   Rebound effect:
+      is the reduction in the potential benefits of more efficient
+      technologies and solutions to reduce resource use, due to the
+      increased demand they might trigger as costs might decrease, in
+
+
+
+Pignataro, et al.       Expires 13 November 2025               [Page 11]
+
+Internet-Draft     Environmental Sustainability Terms           May 2025
+
+
+      return even increasing the overall resource use.  This is known as
+      Jevons paradox: efficiency leading to increased demand.  In
+      internetworking, this can manifest itself when more energy and
+      resource efficient systems reduce the cost for infrastructure
+      build and operations and when this is reflected to customers as
+      reduced cost, customers respond by increased use of
+      telecommunications services which pushes infrastructure build and
+      operations upwards, thereby negating the projected gains from
+      efficiency measures.  Another descriptive source for this
+      phenomenon can be found at [Frontiers].
+
+   Tipping points:
+      are critical environmental thresholds, which when crossed likely
+      lead to irreversible state changes in climate systems that might
+      push the overall earth system out of its stable state that
+      supports life on Earth.  For example, there are tipping points
+      defined for the Antarctic and Greenland ice sheets disappearing,
+      the Arctic sea-ice loss, Siberian permafrost loss or the dieback
+      of the Amazon and Boreal forests.  As planetary boundaries are
+      crossed, the likelihood of the tipping points being reached also
+      increases.  When the tipping points are hit, notably
+      simultaneously, the overall impact to the global Earth system
+      might be catastrophic, as another stable state which no longer
+      supports life could be reached.
+
+   UN SDGs:
+      United Nations Sustainable Development Goals are 17 global
+      objectives that collectively define a framework for a sustainable
+      global system where people and the planet collectively thrive and
+      live in peace, prosperity and equity.  They were adopted in 2015
+      and most of them have a target achievement date of 2030 [UN-SDG].
+      They are part of the so-called UN 2030 Agenda.  The International
+      Telecommunications Union (ITU) has published on how our technology
+      could help meet the UN SDGs [ITU-ICT-SDG].  Notably, most UN SDGs
+      provide guidance for the handprint impact of internetworking
+      technologies, while some are also related to potential action for
+      footprint reduction.  The 17 SDGs are:
+
+      Goal 1    No poverty
+      Goal 2    Zero hunger
+      Goal 3    Good health and well-being
+      Goal 4    Quality education
+      Goal 5    Gender equality
+      Goal 6    Clean water and sanitation
+      Goal 7    Affordable and clean energy
+      Goal 8    Decent work and economic growth
+      Goal 9    Industry, innovation and infrastructure
+      Goal 10   Reduced inequalities
+
+
+
+Pignataro, et al.       Expires 13 November 2025               [Page 12]
+
+Internet-Draft     Environmental Sustainability Terms           May 2025
+
+
+      Goal 11   Sustainable cities and communities
+      Goal 12   Responsible consumption and production
+      Goal 13   Climate action
+      Goal 14   Life below water
+      Goal 15   Life on land
+      Goal 16   Peace, justice and strong institutions
+      Goal 17   Partnerships for the Goals
+
+
+      The SDG Academy [SDG-Acad] also provides useful information on the
+      topic, as well as progress to date.
+
+3.  Environmental Sustainability Concepts
+
+3.1.  'Sustainable X' versus 'X for Sustainability'
+
+   Every technology solution, system or process has sustainability
+   impacts, as it uses energy and resources and operates in a given
+   context to provide a [perceived] useful output.  These impacts could
+   be both negative and positive w.r.t sustainability outcomes.  With a
+   simplistic view, the negative impact is termed as footprint and the
+   positive impact is handprint, as defined in the "Definition of Terms"
+   section.  Again, generally speaking, footprint considerations of a
+   technology are grouped under "Sustainable X" and the handprint
+   considerations are covered under "X for Sustainability".
+
+   Additionally, when sustainability impacts are considered, not only
+   environmental but also societal and economic perspectives need to be
+   taken into account, both for footprint and handprint domains.  A
+   systems perspective ensures that the interactions and feedback loops
+   are not forgotten among different sub-areas of sustainability.
+
+   Another fundamental sustainability impact assessment requirement is
+   to cover the complete impact of a product, service or process over
+   its full lifetime.  Life Cycle Assessment (LCA) starts from the raw
+   materials extraction & acquisition phases, and continues with design,
+   manufacturing, distribution, deployment, use, maintenance,
+   decommissioning, refurbishment/reuse, and ends with end-of-life
+   treatment (recycling & waste).  It is imperative that we consider not
+   only the design and build stages of our technologies but also its use
+   and end-of-life phases.  An equally essential way of ensuring a
+   holistic perspective is the supply-chain dimension.  When we consider
+   the footprint impact of a technology we are building, we need to
+   consider the full supply chain that the technology is part of, both
+   upstream, what it inherits from the material acquisition, components
+   and services used, to downstream for wherever the technology is used
+   and then decommissioned.  Further, this includes transportation of
+   materials or products, and the carbon-friendliness of the means and
+
+
+
+Pignataro, et al.       Expires 13 November 2025               [Page 13]
+
+Internet-Draft     Environmental Sustainability Terms           May 2025
+
+
+   routes chosen.  What this implies is that we are responsible for the
+   direct and indirect impacts of our activity, both on demand and
+   supply directions.
+
+   Below, we cover the "Sustainable Internetworking" and
+   "Internetworking for Sustainability" perspectives in more detail.
+
+3.1.1.  Sustainable Internetworking
+
+   Sustainable internetworking is about ensuring that the negative
+   impacts of internetworking are minimized as much as possible.
+
+   In the environmental / ecological sustainability domain, the sub-
+   areas to be considered are:
+
+   *  Climate change,
+
+   *  materials efficiency, circularity, preservation of geodiversity,
+      and
+
+   *  biodiversity preservation.
+
+   Climate change considerations in internetworking by and large
+   translate to energy sourcing, consumption, savings and efficiency as
+   this impacts the GHGs of the internetworking systems directly, when
+   mostly non-renewable energy sources are used for the operations of
+   the networks.  When the carbon intensity of the energy supply used in
+   operations decreases (more renewable energy in the supply mix), then
+   the use phase GHGs also proportionally decrease.  This might put the
+   GHG emissions of the manufacturing and materials extraction and
+   acquisition phases ahead of the use phase.  These are called the
+   embodied emissions.
+
+   However, energy is not the only aspect to consider: materials
+   efficiency and circularity are key considerations to limit the
+   resource use of our technologies, thereby reducing the scarcity of
+   materials but also the destruction of many ecosystems during their
+   extraction and manufacturing, polluting water and land with waste,
+   which might also impact directly or indirectly the abundance and
+   health of the species on the planet, namely biodiversity.  While it
+   is significantly more difficult to quantify and measure the impact of
+   our technologies in these domains, the planetary boundaries framework
+   provides helpful guidance.
+
+   For the societal and economic footprint of our technologies, we need
+   to be mindful about the potential negative effects of our
+   technologies w.r.t. the social boundaries, as depicted in the so-
+   called doughnut economics model, that includes education, health,
+
+
+
+Pignataro, et al.       Expires 13 November 2025               [Page 14]
+
+Internet-Draft     Environmental Sustainability Terms           May 2025
+
+
+   incomes, housing, gender equality, social equity, inclusiveness,
+   justice and more.  What we need to realize is that our technology has
+   direct and indirect impacts in these aspects and the challenge is not
+   only to meet environmental sustainability targets but social and
+   economic ones as well.  There are very practical considerations, for
+   example: are there partial or total barriers to accessing the
+   Internet or its services? what is the impact of biases in artificial
+   intelligence (AI), as it pertains gender biases, when those AI models
+   are used in job selection?  More technology doesn't always mean
+   better outcomes for all and can we mitigate this impact?  Admittedly,
+   a quantitative approach to the societal and economical aspects is
+   more challenging; thinking in terms of profit, people, and planet, as
+   well as the Key Values (KV) / Key Value Indicators (KVIs) approach
+   described in Section 3.2 bring some relief.
+
+3.1.2.  Internetworking for Sustainability
+
+   When it comes to the positive impact of internetworking in tackling
+   the sustainability challenges faced, we are in the "internetworking
+   for sustainability" realm.  This is a very diverse topic covering
+   innumerable industrial and societal verticals and use cases.
+   Essentially, we are asking how our technology can help other sectors
+   and users to decarbonize, and to reduce their own footprints and to
+   increase their handprints in environmental, societal and economic
+   dimensions.  These are induced or enablement effects.  Examples are
+   how internetworking is being used in smart energy grids or smart
+   cities, transport, health care, education, agriculture, manufacturing
+   and other verticals.  While efficiency gains are usually a basis,
+   there are also other impacts through ubiquitous network coverage,
+   sensing, affordability, ease of maintenance and operation, equity in
+   access, to name a few.
+
+   Climate change mitigation and climate change adaptation, as defined
+   in the "Definition of Terms" section, are particular focus areas
+   where internetworking could help create more resilience in our
+   societies and economies along with sustainability.
+
+   Essentially, handprint considerations are asking us to think about
+   how our technology could be used to tackle sustainability challenges
+   at first, and second, to generate feedback on how to create enablers
+   and improvements in our technology for it to be more impactful.  The
+   usual Key Performance Indicators (KPIs) related to technical system
+   parameters would be largely insufficient for this purpose.
+   Supporting this effort, the Key Values (KV) and Key Value Indicators
+   (KVIs) concepts have been developed, to be used in conjunction with
+   use cases to develop impactful solutions.  KV and KVIs are the
+   subject of Section 3.2.
+
+
+
+
+Pignataro, et al.       Expires 13 November 2025               [Page 15]
+
+Internet-Draft     Environmental Sustainability Terms           May 2025
+
+
+   The following are some examples of internetworking for
+   sustainability.  This is not a comprehensive list; many more such
+   examples can be found.  Leveraging internetworking for sustainability
+   usually involves special requirements, which are listed along with
+   the examples.
+
+   Smart Grid:
+      The Smart Grid [RFC6272] generally refers to enhancements to
+      traditional electrical grids that offer additional features such
+      as two-way flows of electricity (e.g., accommodating solar panels,
+      electrical batteries) and granular control of the grid (e.g.,
+      allowing to selectively turn off certain consumers such as
+      Heating, Ventilation, and Air Conditioning (HVAC) units during
+      certain times.)  The Smart Grid aims to improve sustainability by
+      facilitating concepts such as peak shaving (i.e., lowering peak
+      usage to reduce the amount of excess generation of electricity
+      that is not needed during non-peak periods), and encouraging
+      residential homes and business to invest in renewable energy
+      sources such as solar, for example offering credit for feeding
+      surplus energy being generated back into the grid.  For this to
+      work, the Smart Grid requires support by networking technology
+      that enables the required control loops as well as visibility into
+      grid telemetry.  This, in turn, requires the support of new
+      requirements, including aspects of security (since a critical
+      infrastructure is at stake), adherence to high precision service
+      levels and ultra-low latency communication (e.g., to mitigate
+      sudden spikes in voltage), and special provisions to ensure data
+      privacy (given that data from private households, electrical
+      vehicles, and personal devices is involved.)
+
+   Smart Cities:
+      Many applications for smart cities involve optimizations to make
+      cities more sustainable.  Examples include smart garbage disposals
+      that reduce the number of truck rolls (and associated emissions)
+      to collect garbage only when needed, and guidance systems for
+      smart parking that reduce the amount of vehicle traffic used to
+      find parking spots.  These applications are enabled by networking.
+      Again, special requirements need to be supported for networks to
+      support those applications, such as the ability to deploy
+      equipment in harsh urban environments, or monitoring for
+      vandalism.
+
+   Smart Agriculture:
+      Smart agriculture involves minimizing usage of resources such as
+      fertilizer and water in the production of agricultural output.
+      This also helps minimize the area set aside for farming and
+      reclaim land for other purposes including biodiversity.
+      Similarly, networking is an enabler for environmental
+
+
+
+Pignataro, et al.       Expires 13 November 2025               [Page 16]
+
+Internet-Draft     Environmental Sustainability Terms           May 2025
+
+
+      sustainability.  Special requirements for applications in this
+      space include aspects such as the ability to support networking
+      equipment without the need to run power lines (e.g., using battery
+      or solar), and support for intermittent communications.
+
+3.2.  Key Values and Key Value Indicators
+
+   In the context of sustainability, key values are what matters to
+   societies and to people when it comes to direct and indirect outcomes
+   of the use of our technology.  While KPIs help us to build, monitor
+   and improve the design and implementation of our technologies, key
+   values and their qualitative and quantitative indicators tell us
+   about their usefulness and value to society and people.  As we want
+   our technology to help tackle the grand challenges of our planet,
+   their likelihood of usefulness and impact is a paramount
+   consideration.  KVs and KVIs help set our bearings right and also
+   demonstrate the impact we could create.  The main idea is shifting
+   from measuring performance to measuring value.
+
+   While key values could be universal, like for example the United
+   Nations Sustainable Development Goals (UN SDGs) [UN-SDG], how they
+   are measured, or perceived (KVIs) could be context dependent and use
+   case specific.  To give a simplified example, UN SDG 3, "good health
+   and well-being" is a key value for any society and individual.  Then,
+   when we consider the use case of providing health care and wellness
+   services in a remote, rural community which doesn't have any
+   hospitals or specialist doctors, a key value indicator could be how
+   fast a patient could access health care services without having to
+   travel out of town, or the successful medical interventions that
+   could be carried out remotely.  Then the next step is to identify
+   which parts of our technology could help enable this and design our
+   technology to create impact for the KVs as per KVIs.  In this case,
+   universal network coverage, capacity and features to integrate a
+   multitude of sensors, low-latency and jitter communication services
+   could all be enablers with their own design targets and KPIs defined.
+   Subsequently, we would track the KVIs and the KPIs together for
+   successful outcomes.
+
+   Admittedly, this might not be a straightforward task to carry out for
+   each protocol design.  Yet, such analyses could be included in design
+   processes along with use case development, covering a group of
+   technology design activities (protocols) together.  There are ongoing
+   efforts in mobile networking research to use KVs/KVIs efficiently
+   [M6G-SOCIETAL-KV-KVI] [M6G-VALUE-PERF] [Hexa-X_D1.2].
+
+   While we find ourselves trying to optimize seemingly contradicting
+   parameters or aspects such as reducing latency and jitter and
+   increasing bandwidth and reach targets with sustainability parameters
+
+
+
+Pignataro, et al.       Expires 13 November 2025               [Page 17]
+
+Internet-Draft     Environmental Sustainability Terms           May 2025
+
+
+   or aspects such as reduced energy consumption and increased energy
+   efficiency, key values and key value indicators would help keep our
+   eyes on the targets that matter for the end users and communities and
+   societies.  Considerations for such potential design trade-offs,
+   which are at the heart of our engineering innovations, are the topic
+   of the next section.
+
+3.2.1.  Key Value Enablers
+
+   Between the design and creation of a technology, and realization of
+   the value generated by its deployment and use, there are a number of
+   enablers and blockers of its usage.  We generally refer to them as KV
+   Enablers.  These are the key factors that would scale and spread use
+   cases or block their deployment.
+
+   Technical enablers are the features needed for the technical
+   capabilities and feasibility of the use cases, like the network
+   features being deployed to support the use case.  Beyond the
+   technical aspects, there are also criteria at the system level which
+   determine the context in which the technology will be used as well as
+   the actions of the use case stakeholders.  These might affect the
+   level of adaptation to a particular society or ecosystem, such as
+   cost of connectivity and Internet service access, availability of
+   services, security, and privacy.  While technical enablers are in
+   more direct control of protocol and network designers, system-level
+   enablers might in second-order, indirect, or beyond control,
+   depending on the actions of other stakeholders and the existing
+   environment.
+
+   An important corollary is that KV enablers can be used to derive
+   technological requirements, KPIs and advancements to maximize key
+   value.
+
+4.  Security Considerations
+
+   A descriptive and unambiguous definition of terms decreases
+   misunderstandings, misinterpretations, and misalignment, in turn
+   improving the security posture of a system.
+
+5.  Acknowledgements
+
+   This document is created greatly leveraging ideas and text from
+   [I-D.cparsk-eimpact-sustainability-considerations], and consequently
+   acknowledges all the many contributions that improved it.
+
+6.  Informative References
+
+
+
+
+
+Pignataro, et al.       Expires 13 November 2025               [Page 18]
+
+Internet-Draft     Environmental Sustainability Terms           May 2025
+
+
+   [CUE]      Belady, C., Azevedo, D., Patterson, M., Pouchet, J., and
+              R. Tipley, "Carbon Usage Effectiveness (CUE): A Green Grid
+              Data Center Sustainability Metric", 2 December 2010,
+              <https://www.thegreengrid.org/en/resources/library-and-
+              tools/241-Carbon-Usage-Effectiveness-%28CUE%29%3A-A-Green-
+              Grid-Data-Center-Sustainability-Metric>.
+
+   [Doughnut] Wikipedia, "Doughnut (economic model)", 13 October 2023,
+              <https://en.wikipedia.org/wiki/Doughnut_(economic_model)>.
+
+   [Frontiers]
+              Frontiers, "The Rebound Effect and the Jevons' Paradox:
+              Beyond the Conventional Wisdom", 2023,
+              <https://www.frontiersin.org/research-topics/6598/the-
+              rebound-effect-and-the-jevons-paradox-beyond-the-
+              conventional-wisdom#overview>.
+
+   [GHG-Proto]
+              "The Greenhouse Gas Protocol - A Corporate Accounting and
+              Reporting Standard, revised version", Geneva: World
+              Business Council for Sustainable Development, Washington,
+              DC: World Resources Institute, 2004,
+              <https://ghgprotocol.org/sites/default/files/standards/
+              ghg-protocol-revised.pdf>.
+
+   [Hexa-X_D1.2]
+              "Expanded 6G vision, use cases and societal values -
+              including aspects of sustainability, security and
+              spectrum", Deliverable D1.2, 30 April 2021, <https://hexa-
+              x.eu/wp-content/uploads/2021/05/Hexa-X_D1.2.pdf>.
+
+   [I-D.cparsk-eimpact-sustainability-considerations]
+              Pignataro, C., Rezaki, A., Krishnan, S., ElBakoury, H.,
+              and A. Clemm, "Sustainability Considerations for
+              Internetworking", Work in Progress, Internet-Draft, draft-
+              cparsk-eimpact-sustainability-considerations-07, 24
+              January 2024, <https://datatracker.ietf.org/doc/html/
+              draft-cparsk-eimpact-sustainability-considerations-07>.
+
+   [IPCC]     "Intergovernmental Panel on Climate Change (IPCC). (2022).
+              Annex I: Glossary. In Global Warming of 1.5 degrees
+              Celsius: IPCC Special Report on Impacts of Global Warming
+              of 1.5 degrees Celsius above Pre-industrial Levels in
+              Context of Strengthening Response to Climate Change,
+              Sustainable Development, and Efforts to Eradicate Poverty
+              (pp. 541-562)", Cambridge University Press,
+              doi 10.1017/9781009157940.008, 2022,
+              <https://www.ipcc.ch/sr15/chapter/glossary/>.
+
+
+
+Pignataro, et al.       Expires 13 November 2025               [Page 19]
+
+Internet-Draft     Environmental Sustainability Terms           May 2025
+
+
+   [ITU-ICT-SDG]
+              ITU, "Digital technologies to achieve the UN SDGs", 2023,
+              <https://www.itu.int/en/mediacentre/backgrounders/Pages/
+              icts-to-achieve-the-united-nations-sustainable-
+              development-goals.aspx>.
+
+   [M6G-SOCIETAL-KV-KVI]
+              Wikström, G., Schuler Scott, A., Mesogiti, I., Stoica, R.,
+              Georgiev, G., Barmpounakis, S., Gavras, A., Demestichas,
+              P., Hamon, M., Hallingby, H., and D. Lund, "What societal
+              values will 6G address?", 17 May 2022,
+              <https://doi.org/10.5281/zenodo.6557534>.
+
+   [M6G-VALUE-PERF]
+              Ziegler, V. and S. Yrjola, "6G Indicators of Value and
+              Performance", 4 May 2020,
+              <https://doi.org/10.1109/6GSUMMIT49458.2020.9083885>.
+
+   [Planet-B] Azote for Stockholm Resilience Centre, based on analysis
+              in Richardson et al 2023, "Planetary boundaries", 2023,
+              <https://www.stockholmresilience.org/research/planetary-
+              boundaries.html>.
+
+   [RFC6272]  Baker, F. and D. Meyer, "Internet Protocols for the Smart
+              Grid", RFC 6272, DOI 10.17487/RFC6272, June 2011,
+              <https://www.rfc-editor.org/info/rfc6272>.
+
+   [SDG-Acad] "SDG Academy", 2023, <https://sdgacademy.org>.
+
+   [Telefonica]
+              Telefonica, "Consolidated Annual Report 2021", 2021,
+              <https://statics.telefonica.com/en/financial-reports/2021/
+              Consolidated-Annual-
+              Report/#i7111116644124bd299d124820baf28f7_394>.
+
+   [UN-SDG]   "Sustainable Development, the 17 Goals", 2023,
+              <https://sdgs.un.org/goals>.
+
+   [UNEP-LCA] "Global guidance principles for life cycle assessment
+              databases : a basis for greener processes and products",
+              2011, <https://www.lifecycleinitiative.org/library/global-
+              guidance-principles-for-lca-databases-a-basis-for-greener-
+              processes-and-products/>.
+
+   [UNGA42]   UN, "Report of the World Commission on Environment and
+              Development : "Our common future"", 4 August 1987,
+              <http://digitallibrary.un.org/record/139811>.
+
+
+
+
+Pignataro, et al.       Expires 13 November 2025               [Page 20]
+
+Internet-Draft     Environmental Sustainability Terms           May 2025
+
+
+Authors' Addresses
+
+   Carlos Pignataro (editor)
+   Blue Fern Consulting
+   United States of America
+   Email: cpignata@gmail.com, carlos@bluefern.consulting
+
+
+   Ali Rezaki
+   Nokia
+   Germany
+   Email: ali.rezaki@nokia.com
+
+
+   Hesham ElBakoury
+   Independent Consultant
+   United States of America
+   Email: helbakoury@gmail.com
+
+
+   Shailesh Prabhu
+   Nokia
+   India
+   Email: shailesh.prabhu@nokia.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Pignataro, et al.       Expires 13 November 2025               [Page 21]
