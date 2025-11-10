@@ -5,7 +5,7 @@
 Network Working Group                                  C. Pignataro, Ed.
 Internet-Draft                                      Blue Fern Consulting
 Intended status: Best Current Practice                         A. Rezaki
-Expires: 3 November 2025                                           Nokia
+Expires: 14 May 2026                                               Nokia
                                                                 J. Arkko
                                                                 Ericsson
                                                                 A. Clemm
@@ -14,11 +14,11 @@ Expires: 3 November 2025                                           Nokia
                                                   Independent Consultant
                                                                S. Prabhu
                                                                    Nokia
-                                                              2 May 2025
+                                                        10 November 2025
 
 
 Sustainability Considerations for Networking Protocols and Applications
-            draft-pignataro-enviro-sustainability-consid-02
+            draft-pignataro-enviro-sustainability-consid-03
 
 Abstract
 
@@ -47,15 +47,15 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 3 November 2025.
+   This Internet-Draft will expire on 14 May 2026.
 
 
 
 
 
-Pignataro, et al.        Expires 3 November 2025                [Page 1]
+Pignataro, et al.          Expires 14 May 2026                  [Page 1]
 
-Internet-Draft        Sustainability Considerations             May 2025
+Internet-Draft        Sustainability Considerations        November 2025
 
 
 Copyright Notice
@@ -81,9 +81,10 @@ Table of Contents
            and Implementers  . . . . . . . . . . . . . . . . . . . .   3
    4.  Conclusion  . . . . . . . . . . . . . . . . . . . . . . . . .   7
      4.1.  Call to Action  . . . . . . . . . . . . . . . . . . . . .   7
-   5.  Security Considerations . . . . . . . . . . . . . . . . . . .   8
-   6.  Acknowledgements  . . . . . . . . . . . . . . . . . . . . . .   8
-   7.  Informative References  . . . . . . . . . . . . . . . . . . .   9
+   5.  IANA Considerations . . . . . . . . . . . . . . . . . . . . .   8
+   6.  Security Considerations . . . . . . . . . . . . . . . . . . .   8
+   7.  Acknowledgements  . . . . . . . . . . . . . . . . . . . . . .   9
+   8.  Informative References  . . . . . . . . . . . . . . . . . . .   9
    Authors' Addresses  . . . . . . . . . . . . . . . . . . . . . . .   9
 
 1.  Introduction
@@ -108,10 +109,9 @@ Table of Contents
 
 
 
-
-Pignataro, et al.        Expires 3 November 2025                [Page 2]
+Pignataro, et al.          Expires 14 May 2026                  [Page 2]
 
-Internet-Draft        Sustainability Considerations             May 2025
+Internet-Draft        Sustainability Considerations        November 2025
 
 
 2.  Implications to the IETF
@@ -165,9 +165,9 @@ Internet-Draft        Sustainability Considerations             May 2025
 
 
 
-Pignataro, et al.        Expires 3 November 2025                [Page 3]
+Pignataro, et al.          Expires 14 May 2026                  [Page 3]
 
-Internet-Draft        Sustainability Considerations             May 2025
+Internet-Draft        Sustainability Considerations        November 2025
 
 
        b.2.  Managed Elements:
@@ -221,9 +221,9 @@ Internet-Draft        Sustainability Considerations             May 2025
 
 
 
-Pignataro, et al.        Expires 3 November 2025                [Page 4]
+Pignataro, et al.          Expires 14 May 2026                  [Page 4]
 
-Internet-Draft        Sustainability Considerations             May 2025
+Internet-Draft        Sustainability Considerations        November 2025
 
 
              as the volume does not get to the point where additional
@@ -277,9 +277,9 @@ Internet-Draft        Sustainability Considerations             May 2025
 
 
 
-Pignataro, et al.        Expires 3 November 2025                [Page 5]
+Pignataro, et al.          Expires 14 May 2026                  [Page 5]
 
-Internet-Draft        Sustainability Considerations             May 2025
+Internet-Draft        Sustainability Considerations        November 2025
 
 
        d.1.  Consider Carbon Intensity (CI) / Emission Factor (EF) as an
@@ -333,9 +333,9 @@ Internet-Draft        Sustainability Considerations             May 2025
 
 
 
-Pignataro, et al.        Expires 3 November 2025                [Page 6]
+Pignataro, et al.          Expires 14 May 2026                  [Page 6]
 
-Internet-Draft        Sustainability Considerations             May 2025
+Internet-Draft        Sustainability Considerations        November 2025
 
 
              network infrastructure, reducing the frequency of hardware
@@ -389,16 +389,20 @@ Internet-Draft        Sustainability Considerations             May 2025
 
 
 
-Pignataro, et al.        Expires 3 November 2025                [Page 7]
+Pignataro, et al.          Expires 14 May 2026                  [Page 7]
 
-Internet-Draft        Sustainability Considerations             May 2025
+Internet-Draft        Sustainability Considerations        November 2025
 
 
    3.  consider, qualify, quantify, and explain the specific guidelines
        in Section 3 as you develop protocols, extensions, and
        architectures.
 
-5.  Security Considerations
+5.  IANA Considerations
+
+   This document has no IANA actions.
+
+6.  Security Considerations
 
    Sustainable practices offer many environmental, economic, and social
    benefits, and security is a route to sustainability rather than a
@@ -437,20 +441,22 @@ Internet-Draft        Sustainability Considerations             May 2025
    Without appropriate security, sustainability efforts may be
    undermined by unreliable data, misreporting, or abuse.
 
-6.  Acknowledgements
+
+
+
+
+Pignataro, et al.          Expires 14 May 2026                  [Page 8]
+
+Internet-Draft        Sustainability Considerations        November 2025
+
+
+7.  Acknowledgements
 
    This document is created greatly leveraging ideas and text from
    [I-D.cparsk-eimpact-sustainability-considerations], and consequently
    acknowledges all the many contributions that improved it.
 
-
-
-Pignataro, et al.        Expires 3 November 2025                [Page 8]
-
-Internet-Draft        Sustainability Considerations             May 2025
-
-
-7.  Informative References
+8.  Informative References
 
    [I-D.cparsk-eimpact-sustainability-considerations]
               Pignataro, C., Rezaki, A., Krishnan, S., ElBakoury, H.,
@@ -461,12 +467,12 @@ Internet-Draft        Sustainability Considerations             May 2025
               draft-cparsk-eimpact-sustainability-considerations-07>.
 
    [I-D.pignataro-green-enviro-sust-terminology]
-              Pignataro, C., Rezaki, A., and H. ElBakoury,
+              Pignataro, C., Rezaki, A., ElBakoury, H., and S. Prabhu,
               "Environmental Sustainability Terminology and Concepts",
               Work in Progress, Internet-Draft, draft-pignataro-green-
-              enviro-sust-terminology-01, 27 December 2024,
+              enviro-sust-terminology-02, 12 May 2025,
               <https://datatracker.ietf.org/doc/html/draft-pignataro-
-              green-enviro-sust-terminology-01>.
+              green-enviro-sust-terminology-02>.
 
 Authors' Addresses
 
@@ -492,20 +498,20 @@ Authors' Addresses
    2220 Central Expressway
    Santa Clara,  CA 95050
    United States of America
+
+
+
+Pignataro, et al.          Expires 14 May 2026                  [Page 9]
+
+Internet-Draft        Sustainability Considerations        November 2025
+
+
    Email: ludwig@clemm.org
 
 
    Hesham ElBakoury
    Independent Consultant
    United States of America
-
-
-
-Pignataro, et al.        Expires 3 November 2025                [Page 9]
-
-Internet-Draft        Sustainability Considerations             May 2025
-
-
    Email: helbakoury@gmail.com
 
 
@@ -551,10 +557,4 @@ Internet-Draft        Sustainability Considerations             May 2025
 
 
 
-
-
-
-
-
-
-Pignataro, et al.        Expires 3 November 2025               [Page 10]
+Pignataro, et al.          Expires 14 May 2026                 [Page 10]
