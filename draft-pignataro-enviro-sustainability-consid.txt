@@ -470,9 +470,9 @@ Internet-Draft        Sustainability Considerations        November 2025
               Pignataro, C., Rezaki, A., ElBakoury, H., and S. Prabhu,
               "Environmental Sustainability Terminology and Concepts",
               Work in Progress, Internet-Draft, draft-pignataro-green-
-              enviro-sust-terminology-02, 12 May 2025,
+              enviro-sust-terminology-03, 10 November 2025,
               <https://datatracker.ietf.org/doc/html/draft-pignataro-
-              green-enviro-sust-terminology-02>.
+              green-enviro-sust-terminology-03>.
 
 Authors' Addresses
 
